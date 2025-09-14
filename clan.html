@@ -44,10 +44,10 @@
         }
         .war-section {
             margin-bottom: 40px;
-            background: linear-gradient(135deg, #ffb65d 0%, #fddbc6 100%);
-            border-radius: 12px;
+            background: transparent;
             padding: 25px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            border-radius: 20px;
             display: flex;
             flex-direction: column;
             align-items: stretch;
@@ -58,9 +58,11 @@
             color: #FFDFB9;
             margin-bottom: 20px;
             text-align: center;
-            padding: 15px;
+            padding: 20px;
             background: linear-gradient(135deg, #A4193D 0%, #ec1c54 100%);
             border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
             text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
         }
         table {
@@ -168,7 +170,7 @@
         table {
         width: 100%;
         font-size: 0.85em;
-        min-width: unset;  /* Remove any minimum width */
+        min-width: unset;
     }
         
         .container {
@@ -198,7 +200,7 @@
     <div class="container">
         <h1>🏆 Season 123 Performance Analysis</h1>
         <p class="subtitle">Clan Lebanon (#2Q9Q2CU) - Individual Player Performance with Percentages</p>
-        
+
         <div class="summary-stats">
             <div class="stat-card">
                 <div class="stat-number">150,167</div>
@@ -547,7 +549,6 @@
         ]}
     ];
 
-        // Helper functions
         function getMaxPossibleFame(battles) {
             if (battles >= 13) return 3600;
             if (battles >= 9) return 2700;
@@ -569,19 +570,19 @@
             return '';
         }
 
-        // Process individual war data
+       
         function processWarData(sectionData, tableId) {
             const tbody = document.getElementById(tableId);
             tbody.innerHTML = '';
             
-            // Calculate percentages and sort
+           
             const processedPlayers = sectionData.players
                 .map(player => ({
                     ...player,
                     maxPossible: getMaxPossibleFame(player.battles),
                     percentage: calculatePercentage(player.fame, player.battles)
                 }))
-                .filter(player => player.battles > 0) // Exclude players with 0 battles
+                .filter(player => player.battles > 0) 
                 .sort((a, b) => b.percentage - a.percentage);
 
             processedPlayers.forEach((player, index) => {
@@ -599,11 +600,10 @@
             });
         }
 
-        // Calculate overall weighted performance
+
         function calculateOverallPerformance() {
             const allPlayers = new Map();
-            
-            // Collect all unique player names
+
             season123Data.forEach(section => {
                 section.players.forEach(player => {
                     if (player.battles > 0) {
@@ -621,7 +621,7 @@
                 });
             });
 
-            // Fill in data for each war
+           
             season123Data.forEach(section => {
                 const warKey = section.section === 3 ? 'colosseum' : 
                               section.section === 2 ? 'day3' : 
@@ -640,16 +640,14 @@
                 });
             });
 
-            // Calculate weighted scores
             const results = Array.from(allPlayers.values()).map(player => {
                 let totalWeight = 0;
                 let weightedScore = 0;
-                
-                // Determine weights based on participation
+
                 const baseWeights = { colosseum: 40, day3: 20, day2: 20, day1: 20 };
                 const adjustedWeights = { ...baseWeights };
-                
-                // Redistribute weights if player didn't participate in some wars
+
+
                 const participatedWars = [];
                 if (player.colosseum) participatedWars.push('colosseum');
                 if (player.day3) participatedWars.push('day3');
@@ -667,7 +665,6 @@
                     });
                 }
                 
-                // Calculate weighted score
                 ['colosseum', 'day3', 'day2', 'day1'].forEach(war => {
                     if (player[war]) {
                         weightedScore += (player[war].percentage * adjustedWeights[war]) / 100;
@@ -688,7 +685,6 @@
             return results;
         }
 
-        // Display overall results
         function displayOverallResults() {
             const results = calculateOverallPerformance();
             const tbody = document.getElementById('overall-results');
@@ -714,24 +710,18 @@
                 `;
                 tbody.appendChild(row);
             });
-            
-            // Update active players count
             document.getElementById('active-players').textContent = results.length;
         }
 
-        // Initialize the analysis
         function initializeAnalysis() {
-            // Process individual wars
             processWarData(season123Data.find(s => s.section === 3), 'colosseum-results');
             processWarData(season123Data.find(s => s.section === 2), 'war-day-3-results');
             processWarData(season123Data.find(s => s.section === 1), 'war-day-2-results');
             processWarData(season123Data.find(s => s.section === 0), 'war-day-1-results');
-            
-            // Display overall results
+
             displayOverallResults();
         }
 
-        // Run the analysis when page loads
         document.addEventListener('DOMContentLoaded', initializeAnalysis);
     </script>
 </body>
