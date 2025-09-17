@@ -198,16 +198,16 @@
 </head>
 <body>
     <div class="container">
-        <h1>🏆 Season 123 Performance Analysis</h1>
+        <h1 id = "title"></h1>
         <p class="subtitle">Clan Lebanon (#2Q9Q2CU) - Individual Player Performance with Percentages</p>
 
         <div class="summary-stats">
             <div class="stat-card">
-                <div class="stat-number">150,167</div>
+                <div class="stat-number" id = "total-fame"></div>
                 <div class="stat-label">Total Final Fame</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">-75</div>
+                <div class="stat-number" id = "trophy-change"></div>
                 <div class="stat-label">Trophy Change</div>
             </div>
             <div class="stat-card">
@@ -240,7 +240,7 @@
         </div>
 
         <div class="war-section">
-            <div class="war-title">🏟️ Final Colosseum Results (40% Weight)</div>
+            <div class="war-title">🏟️ Final Colosseum Results (40% Weight) <div id = "colosseum-title"></div></div>
             <table>
                 <thead>
                     <tr>
@@ -258,7 +258,7 @@
         </div>
 
         <div class="war-section">
-            <div class="war-title">⚔️ War Day 3 Results (20% Weight)</div>
+            <div class="war-title">⚔️ War Day 3 Results (20% Weight) <div id = "war-day-3-title"></div></div>
             <table>
                 <thead>
                     <tr>
@@ -276,7 +276,7 @@
         </div>
 
         <div class="war-section">
-            <div class="war-title">⚔️ War Day 2 Results (20% Weight)</div>
+            <div class="war-title">⚔️ War Day 2 Results (20% Weight) <div id = "war-day-2-title"></div></div>
             <table>
                 <thead>
                     <tr>
@@ -294,7 +294,7 @@
         </div>
 
         <div class="war-section">
-            <div class="war-title">⚔️ War Day 1 Results (20% Weight)</div>
+            <div class="war-title">⚔️ War Day 1 Results (20% Weight) <div id = "war-day-1-title"></div></div>
             <table>
                 <thead>
                     <tr>
@@ -311,243 +311,22 @@
             </table>
         </div>
 
-        
+
     </div>
 
-    <script>
-        // Season 123 data
-        const season123Data = [
-    // Section 0 (First War)
-        {section: 0, players: [
-            {name: "X-Bow PEPPAS", fame: 3400, battles: 16},
-            {name: "Shisho", fame: 3400, battles: 16},
-            {name: "*LB* mhmd .", fame: 3400, battles: 16},
-            {name: "Tiger2004", fame: 3200, battles: 16},
-            {name: "Phøenix", fame: 3200, battles: 16},
-            {name: "MS4K.YT", fame: 3200, battles: 16},
-            {name: "ZINGOUL", fame: 3150, battles: 16},
-            {name: "*LB*afrout", fame: 3150, battles: 16},
-            {name: "*LB* AIKO", fame: 3150, battles: 16},
-            {name: "bas3x", fame: 3100, battles: 16},
-            {name: "Shamshod Light", fame: 3100, battles: 16},
-            {name: "hassan yhy", fame: 3100, battles: 16},
-            {name: "alexyy", fame: 3100, battles: 16},
-            {name: "9xRabba", fame: 3050, battles: 16},
-            {name: "waël", fame: 3050, battles: 16},
-            {name: "Ronaldooo", fame: 3000, battles: 16},
-            {name: "Maher MO", fame: 3000, battles: 16},
-            {name: "Hanna", fame: 2950, battles: 16},
-            {name: "*LB* mhmd", fame: 2950, battles: 16},
-            {name: "jadtarhini", fame: 2950, battles: 16},
-            {name: "the phenomenal", fame: 2800, battles: 16},
-            {name: "*LB* RORO", fame: 2800, battles: 16},
-            {name: "kamil", fame: 2800, battles: 16},
-            {name: "jamil", fame: 2800, battles: 16},
-            {name: "<c5>IcYmAs6", fame: 2750, battles: 16},
-            {name: "Amogus", fame: 2700, battles: 16},
-            {name: "DARK FURY", fame: 2700, battles: 16},
-            {name: "BAHHH", fame: 2650, battles: 16},
-            {name: "Harrouk", fame: 2600, battles: 16},
-            {name: "*LB* MIKHAEL", fame: 2600, battles: 16},
-            {name: "*LB* Shooter", fame: 2600, battles: 16},
-            {name: "10xRabba", fame: 2550, battles: 16},
-            {name: "THE KING GHADI", fame: 2550, battles: 16},
-            {name: "AnoNyMeX", fame: 2500, battles: 16},
-            {name: "daren45hk", fame: 2500, battles: 16},
-            {name: "*LB*Ahmad", fame: 2350, battles: 16},
-            {name: "джо", fame: 2300, battles: 16},
-            {name: "MR々BOBKILLER", fame: 2700, battles: 14},
-            {name: "ryuk", fame: 2900, battles: 13},
-            {name: "Alii", fame: 2400, battles: 13},
-            {name: "♤MikDaD♤", fame: 2300, battles: 12},
-            {name: "LB_ALI", fame: 2250, battles: 12},
-            {name: "hagop", fame: 2200, battles: 12},
-            {name: "abo zooz", fame: 2200, battles: 12},
-            {name: "The legend", fame: 2150, battles: 12},
-            {name: "zakhiaa", fame: 2050, battles: 12},
-            {name: "No•name:)", fame: 1800, battles: 12},
-            {name: "*LB* FINKA", fame: 1700, battles: 12},
-            {name: "Jude", fame: 1150, battles: 8},
-            {name: "moe", fame: 800, battles: 4},
-            {name: "✘Trice×͜×", fame: 700, battles: 4},
-            {name: "Hamza B.", fame: 450, battles: 4}
-            // Players with 0 fame excluded
-        ]},
+   <script>
+        let gameData = null;
 
-        // Section 1 (Second War)
-        {section: 1, players: [
-            {name: "*LB* mhmd", fame: 3500, battles: 16},
-            {name: "the boss", fame: 3250, battles: 16},
-            {name: "moe", fame: 3150, battles: 16},
-            {name: "*LB* mhmd .", fame: 3100, battles: 16},
-            {name: "alexyy", fame: 3100, battles: 16},
-            {name: "jadtarhini", fame: 3100, battles: 16},
-            {name: "<c5>IcYmAs6", fame: 3100, battles: 16},
-            {name: "Amogus", fame: 3050, battles: 16},
-            {name: "9xRabba", fame: 3050, battles: 16},
-            {name: "*LB* AIKO", fame: 3000, battles: 16},
-            {name: "bas3x", fame: 2950, battles: 16},
-            {name: "Hanna", fame: 2900, battles: 16},
-            {name: "hagop", fame: 2900, battles: 16},
-            {name: "Harrouk", fame: 2850, battles: 16},
-            {name: "10xRabba", fame: 2850, battles: 16},
-            {name: "Maher MO", fame: 2850, battles: 16},
-            {name: "BAHHH", fame: 2850, battles: 16},
-            {name: "sam", fame: 2850, battles: 16},
-            {name: "the phenomenal", fame: 2800, battles: 16},
-            {name: "Phøenix", fame: 2800, battles: 16},
-            {name: "ZINGOUL", fame: 2800, battles: 16},
-            {name: "hassan yhy", fame: 2800, battles: 16},
-            {name: "джо", fame: 2750, battles: 16},
-            {name: "*LB*afrout", fame: 2750, battles: 16},
-            {name: "Tiger2004", fame: 2750, battles: 16},
-            {name: "*LB* RORO", fame: 2750, battles: 16},
-            {name: "♤MikDaD♤", fame: 2700, battles: 16},
-            {name: "Alii", fame: 2700, battles: 16},
-            {name: "waël", fame: 2700, battles: 16},
-            {name: "AnoNyMeX", fame: 2650, battles: 16},
-            {name: "*LB*Ahmad", fame: 2650, battles: 16},
-            {name: "kamil", fame: 2650, battles: 16},
-            {name: "DARK FURY", fame: 2650, battles: 16},
-            {name: "jamil", fame: 2650, battles: 16},
-            {name: "Shisho", fame: 2600, battles: 16},
-            {name: "MS4K.YT", fame: 2600, battles: 16},
-            {name: "daren45hk", fame: 2600, battles: 16},
-            {name: "The legend", fame: 2550, battles: 16},
-            {name: "Jude", fame: 2450, battles: 16},
-            {name: "THE KING GHADI", fame: 2400, battles: 16},
-            {name: "Shamshod Light", fame: 2400, battles: 16},
-            {name: "*LB* FINKA", fame: 2350, battles: 16},
-            {name: "CODE: moudi", fame: 2350, battles: 16},
-            {name: "*LB* Shooter", fame: 2200, battles: 16},
-            {name: "Tower destroyer", fame: 2100, battles: 16},
-            {name: "No•name:)", fame: 2100, battles: 16},
-            {name: "Ronaldooo", fame: 2850, battles: 15},
-            {name: "LB_ALI", fame: 2600, battles: 12},
-            {name: "MR々BOBKILLER", fame: 2150, battles: 12},
-            {name: "carl", fame: 1000, battles: 8},
-            {name: "zakhiaa", fame: 800, battles: 4},
-            {name: "abo zooz", fame: 650, battles: 4},
-            {name: "Jad", fame: 500, battles: 4}
-            // Players with 0 fame excluded
-        ]},
-
-        // Section 2 (Third War)
-        {section: 2, players: [
-            {name: "MS4K.YT", fame: 3500, battles: 16},
-            {name: "sam", fame: 3350, battles: 16},
-            {name: "*LB* MIKHAEL", fame: 3200, battles: 16},
-            {name: "bas3x", fame: 3150, battles: 16},
-            {name: "No•name:)", fame: 3100, battles: 16},
-            {name: "the boss", fame: 3100, battles: 16},
-            {name: "ZINGOUL", fame: 3100, battles: 16},
-            {name: "*LB* AIKO", fame: 3100, battles: 16},
-            {name: "Maher MO", fame: 3100, battles: 16},
-            {name: "Phøenix", fame: 3050, battles: 16},
-            {name: "CODE: moudi", fame: 3050, battles: 16},
-            {name: "hagop", fame: 3050, battles: 16},
-            {name: "10xRabba", fame: 3000, battles: 16},
-            {name: "*LB*afrout", fame: 2950, battles: 16},
-            {name: "*LB* mhmd", fame: 2900, battles: 16},
-            {name: "The legend", fame: 2900, battles: 16},
-            {name: "DARK FURY", fame: 2850, battles: 16},
-            {name: "Harrouk", fame: 2800, battles: 16},
-            {name: "9xRabba", fame: 2750, battles: 16},
-            {name: "zakhiaa", fame: 2750, battles: 16},
-            {name: "the phenomenal", fame: 2700, battles: 16},
-            {name: "moe", fame: 2700, battles: 16},
-            {name: "hassan yhy", fame: 2700, battles: 16},
-            {name: "THE KING GHADI", fame: 2700, battles: 16},
-            {name: "*LB* Shooter", fame: 2650, battles: 16},
-            {name: "MR々BOBKILLER", fame: 2650, battles: 16},
-            {name: "Ronaldooo", fame: 2650, battles: 16},
-            {name: "Jude", fame: 2650, battles: 16},
-            {name: "BAHHH", fame: 2650, battles: 16},
-            {name: "*LB* mhmd .", fame: 2650, battles: 16},
-            {name: "waël", fame: 2650, battles: 16},
-            {name: "*LB*Ahmad", fame: 2600, battles: 16},
-            {name: "daren45hk", fame: 2600, battles: 16},
-            {name: "Tower destroyer", fame: 2600, battles: 16},
-            {name: "Amogus", fame: 2550, battles: 16},
-            {name: "*LB* RORO", fame: 2500, battles: 16},
-            {name: "jadtarhini", fame: 2500, battles: 16},
-            {name: "Alii", fame: 2500, battles: 16},
-            {name: "*LB* FINKA", fame: 2450, battles: 16},
-            {name: "Shamshod Light", fame: 2350, battles: 16},
-            {name: "jamil", fame: 2300, battles: 16},
-            {name: "Jad", fame: 2300, battles: 14},
-            {name: "Shisho", fame: 2300, battles: 13},
-            {name: "AnoNyMeX", fame: 2300, battles: 12},
-            {name: "Tiger2004", fame: 2250, battles: 12},
-            {name: "Adel✌️Sam", fame: 2000, battles: 12},
-            {name: "goat", fame: 1850, battles: 12},
-            {name: "abo zooz", fame: 1700, battles: 8},
-            {name: "♤MikDaD♤", fame: 1350, battles: 8},
-            {name: "CerealKiller", fame: 1300, battles: 8},
-            {name: "alexyy", fame: 1250, battles: 7},
-            {name: "джо", fame: 550, battles: 4},
-            {name: "<c5>IcYmAs6", fame: 550, battles: 4},
-            {name: "kamil", fame: 450, battles: 3}
-            // Players with 0 fame excluded
-        ]},
-
-        // Section 3 (Final/Colosseum)
-        {section: 3, players: [
-            {name: "waël", fame: 3500, battles: 16},
-            {name: "*LB* mhmd", fame: 3400, battles: 16},
-            {name: "MR々BOBKILLER", fame: 3400, battles: 16},
-            {name: "*LB*afrout", fame: 3400, battles: 16},
-            {name: "moe", fame: 3200, battles: 16},
-            {name: "the boss", fame: 3150, battles: 16},
-            {name: "goat", fame: 3150, battles: 16},
-            {name: "DARK FURY", fame: 3150, battles: 16},
-            {name: "CODE: moudi", fame: 3100, battles: 16},
-            {name: "*LB* mhmd .", fame: 3050, battles: 16},
-            {name: "bas3x", fame: 3050, battles: 16},
-            {name: "9xRabba", fame: 3050, battles: 16},
-            {name: "Maher MO", fame: 3050, battles: 16},
-            {name: "*LB* FINKA", fame: 3000, battles: 16},
-            {name: "Amogus", fame: 3000, battles: 16},
-            {name: "AnoNyMeX", fame: 2950, battles: 16},
-            {name: "zakhiaa", fame: 2850, battles: 16},
-            {name: "ZINGOUL", fame: 2850, battles: 16},
-            {name: "Jad", fame: 2850, battles: 16},
-            {name: "the phenomenal", fame: 2750, battles: 16},
-            {name: "*LB* MIKHAEL", fame: 2700, battles: 16},
-            {name: "Harrouk", fame: 2700, battles: 16},
-            {name: "Jude", fame: 2700, battles: 16},
-            {name: "*LB* RORO", fame: 2700, battles: 16},
-            {name: "THE KING GHADI", fame: 2700, battles: 16},
-            {name: "Shisho", fame: 2600, battles: 16},
-            {name: "*LB* AIKO", fame: 2600, battles: 16},
-            {name: "*LB* Shooter", fame: 2600, battles: 16},
-            {name: "daren45hk", fame: 2600, battles: 16},
-            {name: "CerealKiller", fame: 2600, battles: 16},
-            {name: "Alii", fame: 2600, battles: 16},
-            {name: "No•name:)", fame: 2500, battles: 16},
-            {name: "alexyy", fame: 2500, battles: 16},
-            {name: "jamil", fame: 2500, battles: 16},
-            {name: "~•☆KILLER B☆•~", fame: 2400, battles: 16},
-            {name: "MS4K.YT", fame: 2400, battles: 16},
-            {name: "Phøenix", fame: 2250, battles: 16},
-            {name: "♤MikDaD♤", fame: 2200, battles: 16},
-            {name: "10xRabba", fame: 2200, battles: 16},
-            {name: "The legend", fame: 2200, battles: 16},
-            {name: "BAHHH", fame: 2150, battles: 16},
-            {name: "jadtarhini", fame: 2950, battles: 15},
-            {name: "*LB*Ahmad", fame: 2450, battles: 15},
-            {name: "abo zooz", fame: 2300, battles: 12},
-            {name: "sam", fame: 2100, battles: 12},
-            {name: "Tower destroyer", fame: 1750, battles: 12},
-            {name: "Ronaldooo", fame: 1700, battles: 12},
-            {name: "hagop", fame: 1600, battles: 12},
-            {name: "Tiger2004", fame: 1750, battles: 11},
-            {name: "hassan yhy", fame: 800, battles: 8},
-            {name: "crr", fame: 600, battles: 4},
-            {name: "sefe7.almatador", fame: 450, battles: 3}
-            // Players with 0 fame excluded
-        ]}
-    ];
+        async function readJsonFile() {
+            try {
+                const response = await fetch('game_data.json');
+                const data = await response.json();
+                return data;
+            } catch (error) {
+                console.error('Error reading JSON:', error);
+                return null;
+            }
+        }
 
         function getMaxPossibleFame(battles) {
             if (battles >= 13) return 3600;
@@ -570,12 +349,77 @@
             return '';
         }
 
-       
+        function convertToLegacyFormat(jsonData) {
+            if (!jsonData || !jsonData.player_scores) {
+                console.error('Invalid JSON data structure');
+                return [];
+            }
+
+
+            const playersByWar = {};
+
+            jsonData.player_scores.forEach(player => {
+                const warKey = player.season_key;
+                if (!playersByWar[warKey]) {
+                    playersByWar[warKey] = [];
+                }
+
+                playersByWar[warKey].push({
+                    name: player.player_name,
+                    fame: player.player_fame,
+                    battles: player.player_decks_used,
+                    tag: player.player_tag
+                });
+            });
+
+            const warMapping = {
+                'colosseum': 3,
+                'day3': 2,
+                'day2': 1,
+                'day1': 0
+            };
+
+
+            const seasonKeys = Object.keys(playersByWar).sort();
+
+            const sections = [];
+
+            seasonKeys.forEach((key, index) => {
+                const keyParts = key.split('-');
+                if (keyParts.length === 2) {
+                    const warDay = parseInt(keyParts[1]);
+                    let sectionNumber;
+
+
+                    switch(warDay) {
+                        case 1: sectionNumber = 0; break; // day 1
+                        case 2: sectionNumber = 1; break; // day 2
+                        case 3: sectionNumber = 2; break; // day 3
+                        case 4: sectionNumber = 3; break; // colosseum
+                        default: sectionNumber = index; break;
+                    }
+
+                    sections.push({
+                        section: sectionNumber,
+                        players: playersByWar[key],
+                        seasonKey: key
+                    });
+                }
+            });
+
+            console.log('Created sections:', sections);
+            return sections;
+        }
+
         function processWarData(sectionData, tableId) {
             const tbody = document.getElementById(tableId);
+            if (!tbody || !sectionData) {
+                console.error(`Table element ${tableId} not found or no section data`);
+                return;
+            }
+
             tbody.innerHTML = '';
-            
-           
+
             const processedPlayers = sectionData.players
                 .map(player => ({
                     ...player,
@@ -600,8 +444,13 @@
             });
         }
 
-
         function calculateOverallPerformance() {
+            if (!gameData) {
+                console.error('No game data available');
+                return [];
+            }
+
+            const season123Data = convertToLegacyFormat(gameData);
             const allPlayers = new Map();
 
             season123Data.forEach(section => {
@@ -621,12 +470,11 @@
                 });
             });
 
-           
             season123Data.forEach(section => {
                 const warKey = section.section === 3 ? 'colosseum' : 
                               section.section === 2 ? 'day3' : 
                               section.section === 1 ? 'day2' : 'day1';
-                
+
                 section.players.forEach(player => {
                     if (player.battles > 0 && allPlayers.has(player.name)) {
                         const playerData = allPlayers.get(player.name);
@@ -647,33 +495,32 @@
                 const baseWeights = { colosseum: 40, day3: 20, day2: 20, day1: 20 };
                 const adjustedWeights = { ...baseWeights };
 
-
                 const participatedWars = [];
                 if (player.colosseum) participatedWars.push('colosseum');
                 if (player.day3) participatedWars.push('day3');
                 if (player.day2) participatedWars.push('day2');
                 if (player.day1) participatedWars.push('day1');
-                
+
                 if (participatedWars.length < 4) {
                     const totalMissedWeight = Object.keys(baseWeights)
                         .filter(war => !participatedWars.includes(war))
                         .reduce((sum, war) => sum + baseWeights[war], 0);
-                    
+
                     const redistributePerWar = totalMissedWeight / participatedWars.length;
                     participatedWars.forEach(war => {
                         adjustedWeights[war] += redistributePerWar;
                     });
                 }
-                
+
                 ['colosseum', 'day3', 'day2', 'day1'].forEach(war => {
                     if (player[war]) {
                         weightedScore += (player[war].percentage * adjustedWeights[war]) / 100;
                         totalWeight += adjustedWeights[war];
                     }
                 });
-                
+
                 const overallPercentage = totalWeight > 0 ? (weightedScore / totalWeight) * 100 : 0;
-                
+
                 return {
                     ...player,
                     weightedScore: weightedScore,
@@ -688,17 +535,22 @@
         function displayOverallResults() {
             const results = calculateOverallPerformance();
             const tbody = document.getElementById('overall-results');
+            if (!tbody) {
+                console.error('Overall results table not found');
+                return;
+            }
+
             tbody.innerHTML = '';
-            
+
             results.forEach((player, index) => {
                 const row = document.createElement('tr');
                 row.className = getRankClass(index + 1);
-                
+
                 const getWarDisplay = (warData, warName) => {
                     if (!warData) return '<span class="no-participation">No participation</span>';
                     return `${warData.percentage.toFixed(1)}%<br><small>(${warData.fame}/${getMaxPossibleFame(warData.battles)})</small>`;
                 };
-                
+
                 row.innerHTML = `
                     <td>${index + 1}</td>
                     <td class="player-name">${player.name}</td>
@@ -710,14 +562,49 @@
                 `;
                 tbody.appendChild(row);
             });
-            document.getElementById('active-players').textContent = results.length;
+
+            const activePlayersElement = document.getElementById('active-players');
+            if (activePlayersElement) {
+                activePlayersElement.textContent = results.length;
+            }
         }
 
-        function initializeAnalysis() {
-            processWarData(season123Data.find(s => s.section === 3), 'colosseum-results');
-            processWarData(season123Data.find(s => s.section === 2), 'war-day-3-results');
-            processWarData(season123Data.find(s => s.section === 1), 'war-day-2-results');
-            processWarData(season123Data.find(s => s.section === 0), 'war-day-1-results');
+        async function initializeAnalysis() {
+
+            gameData = await readJsonFile();
+
+            if (!gameData) {
+                console.error('Failed to load game data');
+                return;
+            }
+
+            console.log('Game data loaded:', gameData);
+
+            const season123Data = convertToLegacyFormat(gameData);
+
+            document.querySelector('#title').textContent = `🏆 Season ${gameData.current_season} Performance Analysis`;
+            document.querySelector('#total-fame').textContent = gameData.total_clan_fame.toLocaleString();
+            document.querySelector('#trophy-change').textContent = gameData.total_trophy_change.toLocaleString();
+
+            let fames = [];
+            for (let i = 0; i < gameData.clan_fame.length; i++) {
+                fames.push(gameData.clan_fame[i]);
+            }
+
+            document.querySelector('#colosseum-title').textContent += ` Score: ${fames[3].clan_fame.toLocaleString()}`;
+            document.querySelector('#war-day-3-title').textContent += ` Score: ${fames[2].clan_fame.toLocaleString()}`;
+            document.querySelector('#war-day-2-title').textContent += ` Score: ${fames[1].clan_fame.toLocaleString()}`;
+            document.querySelector('#war-day-1-title').textContent += ` Score: ${fames[0].clan_fame.toLocaleString()}`;
+
+            const colosseumSection = season123Data.find(s => s.section === 3);
+            const day3Section = season123Data.find(s => s.section === 2);
+            const day2Section = season123Data.find(s => s.section === 1);
+            const day1Section = season123Data.find(s => s.section === 0);
+
+            processWarData(colosseumSection, 'colosseum-results');
+            processWarData(day3Section, 'war-day-3-results');
+            processWarData(day2Section, 'war-day-2-results');
+            processWarData(day1Section, 'war-day-1-results');
 
             displayOverallResults();
         }
