@@ -228,6 +228,7 @@
                         <th>#</th>
                         <th>Player</th>
                         <th>Col.</th>
+                        <th>D4</th>
                         <th>D3</th>
                         <th>D2</th>
                         <th>D1</th>
@@ -240,7 +241,7 @@
         </div>
 
         <div class="war-section">
-            <div class="war-title">🏟️ Final Colosseum Results (40% Weight) <div id = "colosseum-title"></div></div>
+            <div class="war-title">🏟️ Final Colosseum Results (30% Weight) <div id = "colosseum-title"></div></div>
             <table>
                 <thead>
                     <tr>
@@ -253,6 +254,24 @@
                     </tr>
                 </thead>
                 <tbody id="colosseum-results">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="war-section">
+            <div class="war-title">⚔️ War Day 4 Results (20% Weight) <div id = "war-day-4-title"></div></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Player Name</th>
+                        <th>Fame</th>
+                        <th>Battles</th>
+                        <th>Max Possible</th>
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody id="war-day-4-results">
                 </tbody>
             </table>
         </div>
@@ -395,7 +414,8 @@
                         case 1: sectionNumber = 0; break; // day 1
                         case 2: sectionNumber = 1; break; // day 2
                         case 3: sectionNumber = 2; break; // day 3
-                        case 4: sectionNumber = 3; break; // colosseum
+                        case 4: sectionNumber = 3; break; // day 4
+                        case 5: sectionNumber = 4; break; // colosseum
                         default: sectionNumber = index; break;
                     }
 
@@ -471,7 +491,8 @@
             });
 
             season123Data.forEach(section => {
-                const warKey = section.section === 3 ? 'colosseum' : 
+                const warKey = section.section === 4 ? 'colosseum' : 
+                              section.section === 3 ? 'day4' :
                               section.section === 2 ? 'day3' : 
                               section.section === 1 ? 'day2' : 'day1';
 
@@ -492,16 +513,17 @@
                 let totalWeight = 0;
                 let weightedScore = 0;
 
-                const baseWeights = { colosseum: 40, day3: 20, day2: 20, day1: 20 };
+                const baseWeights = { colosseum: 30, day4: 20, day3: 20, day2: 15, day1: 15 };
                 const adjustedWeights = { ...baseWeights };
 
                 const participatedWars = [];
                 if (player.colosseum) participatedWars.push('colosseum');
+                if (player.day4) participatedWars.push('day4');
                 if (player.day3) participatedWars.push('day3');
                 if (player.day2) participatedWars.push('day2');
                 if (player.day1) participatedWars.push('day1');
 
-                if (participatedWars.length < 4) {
+                if (participatedWars.length < 5) {
                     const totalMissedWeight = Object.keys(baseWeights)
                         .filter(war => !participatedWars.includes(war))
                         .reduce((sum, war) => sum + baseWeights[war], 0);
@@ -512,7 +534,7 @@
                     });
                 }
 
-                ['colosseum', 'day3', 'day2', 'day1'].forEach(war => {
+                ['colosseum', 'day4', 'day3', 'day2', 'day1'].forEach(war => {
                     if (player[war]) {
                         weightedScore += (player[war].percentage * adjustedWeights[war]) / 100;
                         totalWeight += adjustedWeights[war];
@@ -555,6 +577,7 @@
                     <td>${index + 1}</td>
                     <td class="player-name">${player.name}</td>
                     <td class="percentage-cell">${getWarDisplay(player.colosseum, 'colosseum')}</td>
+                    <td class="percentage-cell">${getWarDisplay(player.day4, 'day4')}</td>
                     <td class="percentage-cell">${getWarDisplay(player.day3, 'day3')}</td>
                     <td class="percentage-cell">${getWarDisplay(player.day2, 'day2')}</td>
                     <td class="percentage-cell">${getWarDisplay(player.day1, 'day1')}</td>
@@ -591,17 +614,20 @@
                 fames.push(gameData.clan_fame[i]);
             }
 
-            document.querySelector('#colosseum-title').textContent += ` Score: ${fames[3].clan_fame.toLocaleString()}`;
+            document.querySelector('#colosseum-title').textContent += ` Score: ${fames[4].clan_fame.toLocaleString()}`;
+            document.querySelector('#war-day-4-title').textContent += ` Score: ${fames[3].clan_fame.toLocaleString()}`;
             document.querySelector('#war-day-3-title').textContent += ` Score: ${fames[2].clan_fame.toLocaleString()}`;
             document.querySelector('#war-day-2-title').textContent += ` Score: ${fames[1].clan_fame.toLocaleString()}`;
             document.querySelector('#war-day-1-title').textContent += ` Score: ${fames[0].clan_fame.toLocaleString()}`;
 
-            const colosseumSection = season123Data.find(s => s.section === 3);
+            const colosseumSection = season123Data.find(s => s.section === 4);
+            const day4Section = season123Data.find(s => s.section === 3);
             const day3Section = season123Data.find(s => s.section === 2);
             const day2Section = season123Data.find(s => s.section === 1);
             const day1Section = season123Data.find(s => s.section === 0);
 
             processWarData(colosseumSection, 'colosseum-results');
+            processWarData(day4Section, 'war-day-4-results');
             processWarData(day3Section, 'war-day-3-results');
             processWarData(day2Section, 'war-day-2-results');
             processWarData(day1Section, 'war-day-1-results');
