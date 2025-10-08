@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Season 123 Player Performance Analysis</title>
+    <title id = "main-title"></title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -94,26 +94,18 @@
             font-weight: 600;
             color: #2c3e50;
         }
-        .fame-cell {
-            font-weight: 600;
-            color: #27ae60;
-        }
         .percentage-cell {
             font-weight: 600;
             font-size: 0.9em;
             padding: 8px 4px;
-            color: #e74c3c;
+            color: #691b13;
             text-align: center;
         }
         .percentage-cell small {
-            font-size: 0.8em;
+            font-size: 0.9em;
             opacity: 0.8;
         }
-        .battles-cell {
-            text-align: center;
-            color: #8e44ad;
-            font-weight: 500;
-        }
+
         .no-participation {
             color: #95a5a6;
             font-size: 0.8em;
@@ -199,7 +191,7 @@
 <body>
     <div class="container">
         <h1 id = "title"></h1>
-        <p class="subtitle">Clan Lebanon (#2Q9Q2CU) - Individual Player Performance with Percentages</p>
+        <p class="subtitle"></p>
 
         <div class="summary-stats">
             <div class="stat-card">
@@ -211,7 +203,7 @@
                 <div class="stat-label">Trophy Change</div>
             </div>
             <div class="stat-card">
-                <div class="stat-number">4</div>
+                <div class="stat-number" id = "war-weeks"></div>
                 <div class="stat-label">War weeks</div>
             </div>
             <div class="stat-card">
@@ -224,15 +216,7 @@
             <div class="war-title overall-title">🏆 Overall Weighted Performance</div>
             <table>
                 <thead>
-                    <tr>
-                        <th>#</th>
-                        <th>Player</th>
-                        <th>Col.</th>
-                        <th>D4</th>
-                        <th>D3</th>
-                        <th>D2</th>
-                        <th>D1</th>
-                        <th>Tot%</th>
+                    <tr class = "table-headers">
                     </tr>
                 </thead>
                 <tbody id="overall-results">
@@ -240,125 +224,24 @@
             </table>
         </div>
 
-        <div class="war-section">
-            <div class="war-title">🏟️ Final Colosseum Results (30% Weight) <div id = "colosseum-title"></div></div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Player Name</th>
-                        <th>Fame</th>
-                        <th>Battles</th>
-                        <th>Max Possible</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody id="colosseum-results">
-                </tbody>
-            </table>
-        </div>
-
-        <div class="war-section">
-            <div class="war-title">⚔️ War Day 4 Results (20% Weight) <div id = "war-day-4-title"></div></div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Player Name</th>
-                        <th>Fame</th>
-                        <th>Battles</th>
-                        <th>Max Possible</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody id="war-day-4-results">
-                </tbody>
-            </table>
-        </div>
-
-        <div class="war-section">
-            <div class="war-title">⚔️ War Day 3 Results (20% Weight) <div id = "war-day-3-title"></div></div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Player Name</th>
-                        <th>Fame</th>
-                        <th>Battles</th>
-                        <th>Max Possible</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody id="war-day-3-results">
-                </tbody>
-            </table>
-        </div>
-
-        <div class="war-section">
-            <div class="war-title">⚔️ War Day 2 Results (15% Weight) <div id = "war-day-2-title"></div></div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Player Name</th>
-                        <th>Fame</th>
-                        <th>Battles</th>
-                        <th>Max Possible</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody id="war-day-2-results">
-                </tbody>
-            </table>
-        </div>
-
-        <div class="war-section">
-            <div class="war-title">⚔️ War Day 1 Results (15% Weight) <div id = "war-day-1-title"></div></div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Player Name</th>
-                        <th>Fame</th>
-                        <th>Battles</th>
-                        <th>Max Possible</th>
-                        <th>Percentage</th>
-                    </tr>
-                </thead>
-                <tbody id="war-day-1-results">
-                </tbody>
-            </table>
-        </div>
-
-
     </div>
 
    <script>
-        let gameData = null;
 
-        async function readJsonFile() {
+        function getFilenameFromUrl() {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get('file') || 'game_data.json';
+        }
+
+        async function readJsonFile(filename) {
             try {
-                const response = await fetch('game_data.json');
+                const response = await fetch(filename);
                 const data = await response.json();
                 return data;
             } catch (error) {
                 console.error('Error reading JSON:', error);
                 return null;
             }
-        }
-
-        function getMaxPossibleFame(battles) {
-            if (battles >= 13) return 3600;
-            if (battles >= 9) return 2700;
-            if (battles >= 5) return 1800;
-            if (battles >= 1) return 900;
-            return 0;
-        }
-
-        function calculatePercentage(fame, battles) {
-            const maxPossible = getMaxPossibleFame(battles);
-            if (maxPossible === 0) return 0;
-            return (fame / maxPossible) * 100;
         }
 
         function getRankClass(rank) {
@@ -368,271 +251,61 @@
             return '';
         }
 
-        function convertToLegacyFormat(jsonData) {
-            if (!jsonData || !jsonData.player_scores) {
-                console.error('Invalid JSON data structure');
-                return [];
+        function loadTableHeaders (gameData) {
+            const headers = document.querySelector(".table-headers");
+            let headerRow = `<th>#</th><th>Player</th><th>Col.</th>`;
+            for (let i = (gameData.total_weeks-1); i > 0; i--) {
+                headerRow += `<th>D${i}</th>`;
             }
-
-
-            const playersByWar = {};
-
-            jsonData.player_scores.forEach(player => {
-                const warKey = player.season_key;
-                if (!playersByWar[warKey]) {
-                    playersByWar[warKey] = [];
-                }
-
-                playersByWar[warKey].push({
-                    name: player.player_name,
-                    fame: player.player_fame,
-                    battles: player.player_decks_used,
-                    tag: player.player_tag
-                });
-            });
-
-            const warMapping = {
-                'colosseum': 3,
-                'day3': 2,
-                'day2': 1,
-                'day1': 0
-            };
-
-
-            const seasonKeys = Object.keys(playersByWar).sort();
-
-            const sections = [];
-
-            seasonKeys.forEach((key, index) => {
-                const keyParts = key.split('-');
-                if (keyParts.length === 2) {
-                    const warDay = parseInt(keyParts[1]);
-                    let sectionNumber;
-
-
-                    switch(warDay) {
-                        case 1: sectionNumber = 0; break; // day 1
-                        case 2: sectionNumber = 1; break; // day 2
-                        case 3: sectionNumber = 2; break; // day 3
-                        case 4: sectionNumber = 3; break; // day 4
-                        case 5: sectionNumber = 4; break; // colosseum
-                        default: sectionNumber = index; break;
-                    }
-
-                    sections.push({
-                        section: sectionNumber,
-                        players: playersByWar[key],
-                        seasonKey: key
-                    });
-                }
-            });
-
-            console.log('Created sections:', sections);
-            return sections;
+            headerRow += `<th>Tot%</th>`;
+            headers.innerHTML = headerRow;
         }
 
-        function processWarData(sectionData, tableId) {
-            const tbody = document.getElementById(tableId);
-            if (!tbody || !sectionData) {
-                console.error(`Table element ${tableId} not found or no section data`);
-                return;
-            }
+        function displayOverallResults(gameData) {
+            const overallResults = gameData.player_final_scores;
 
-            tbody.innerHTML = '';
-
-            const processedPlayers = sectionData.players
-                .map(player => ({
-                    ...player,
-                    maxPossible: getMaxPossibleFame(player.battles),
-                    percentage: calculatePercentage(player.fame, player.battles)
-                }))
-                .filter(player => player.battles > 0) 
-                .sort((a, b) => b.percentage - a.percentage);
-
-            processedPlayers.forEach((player, index) => {
-                const row = document.createElement('tr');
-                row.className = getRankClass(index + 1);
-                row.innerHTML = `
-                    <td>${index + 1}</td>
-                    <td class="player-name">${player.name}</td>
-                    <td class="fame-cell">${player.fame.toLocaleString()}</td>
-                    <td class="battles-cell">${player.battles}</td>
-                    <td class="battles-cell">${player.maxPossible.toLocaleString()}</td>
-                    <td class="percentage-cell">${player.percentage.toFixed(1)}%</td>
-                `;
-                tbody.appendChild(row);
-            });
-        }
-
-        function calculateOverallPerformance() {
-            if (!gameData) {
-                console.error('No game data available');
-                return [];
-            }
-
-            const season123Data = convertToLegacyFormat(gameData);
-            const allPlayers = new Map();
-
-            season123Data.forEach(section => {
-                section.players.forEach(player => {
-                    if (player.battles > 0) {
-                        if (!allPlayers.has(player.name)) {
-                            allPlayers.set(player.name, {
-                                name: player.name,
-                                colosseum: null,
-                                day3: null,
-                                day2: null,
-                                day1: null,
-                                participatedWars: 0
-                            });
-                        }
-                    }
-                });
-            });
-
-            season123Data.forEach(section => {
-                const warKey = section.section === 4 ? 'colosseum' : 
-                              section.section === 3 ? 'day4' :
-                              section.section === 2 ? 'day3' : 
-                              section.section === 1 ? 'day2' : 'day1';
-
-                section.players.forEach(player => {
-                    if (player.battles > 0 && allPlayers.has(player.name)) {
-                        const playerData = allPlayers.get(player.name);
-                        playerData[warKey] = {
-                            fame: player.fame,
-                            battles: player.battles,
-                            percentage: calculatePercentage(player.fame, player.battles)
-                        };
-                        playerData.participatedWars++;
-                    }
-                });
-            });
-
-            const results = Array.from(allPlayers.values()).map(player => {
-                let totalWeight = 0;
-                let weightedScore = 0;
-
-                const baseWeights = { colosseum: 30, day4: 20, day3: 20, day2: 15, day1: 15 };
-                const adjustedWeights = { ...baseWeights };
-
-                const participatedWars = [];
-                if (player.colosseum) participatedWars.push('colosseum');
-                if (player.day4) participatedWars.push('day4');
-                if (player.day3) participatedWars.push('day3');
-                if (player.day2) participatedWars.push('day2');
-                if (player.day1) participatedWars.push('day1');
-
-                if (participatedWars.length < 5) {
-                    const totalMissedWeight = Object.keys(baseWeights)
-                        .filter(war => !participatedWars.includes(war))
-                        .reduce((sum, war) => sum + baseWeights[war], 0);
-
-                    const redistributePerWar = totalMissedWeight / participatedWars.length;
-                    participatedWars.forEach(war => {
-                        adjustedWeights[war] += redistributePerWar;
-                    });
-                }
-
-                ['colosseum', 'day4', 'day3', 'day2', 'day1'].forEach(war => {
-                    if (player[war]) {
-                        weightedScore += (player[war].percentage * adjustedWeights[war]) / 100;
-                        totalWeight += adjustedWeights[war];
-                    }
-                });
-
-                const overallPercentage = totalWeight > 0 ? (weightedScore / totalWeight) * 100 : 0;
-
-                return {
-                    ...player,
-                    weightedScore: weightedScore,
-                    overallPercentage: overallPercentage,
-                    adjustedWeights: adjustedWeights
-                };
-            }).sort((a, b) => b.overallPercentage - a.overallPercentage);
-
-            return results;
-        }
-
-        function displayOverallResults() {
-            const results = calculateOverallPerformance();
-            const tbody = document.getElementById('overall-results');
-            if (!tbody) {
-                console.error('Overall results table not found');
-                return;
-            }
-
-            tbody.innerHTML = '';
-
-            results.forEach((player, index) => {
+            overallResults.forEach((element, index) => {
                 const row = document.createElement('tr');
                 row.className = getRankClass(index + 1);
 
-                const getWarDisplay = (warData, warName) => {
-                    if (!warData) return '<span class="no-participation">No participation</span>';
-                    return `${warData.percentage.toFixed(1)}%<br><small>(${warData.fame}/${getMaxPossibleFame(warData.battles)})</small>`;
-                };
+                let warDayColumns = '';
+                for (let i = 0; i < gameData.total_weeks; i++) {
+
+                    if (element.player_weekly_fame[i] !== undefined) {
+                        warDayColumns += `<td class="percentage-cell"><span>${(element.player_weekly_fame[i]/element.max_possible_fame[i] * 100).toFixed(1)} %</span><br><small>(${element.player_weekly_fame[i]}/${element.max_possible_fame[i] === 1 ? 0 : element.max_possible_fame[i]})</small></td>`;
+                    } else {
+                        warDayColumns += `<td class="percentage-cell"><span class="no-participation">No participation</span></td>`;
+                    }
+                }
 
                 row.innerHTML = `
                     <td>${index + 1}</td>
-                    <td class="player-name">${player.name}</td>
-                    <td class="percentage-cell">${getWarDisplay(player.colosseum, 'colosseum')}</td>
-                    <td class="percentage-cell">${getWarDisplay(player.day4, 'day4')}</td>
-                    <td class="percentage-cell">${getWarDisplay(player.day3, 'day3')}</td>
-                    <td class="percentage-cell">${getWarDisplay(player.day2, 'day2')}</td>
-                    <td class="percentage-cell">${getWarDisplay(player.day1, 'day1')}</td>
-                    <td class="percentage-cell weighted-score">${player.overallPercentage.toFixed(1)}%</td>
+                    <td class="player-name">${element.player_name}</td>
+                    ${warDayColumns}
+                    <td class="percentage-cell weighted-score">${element.overall_player_score.toFixed(1)} %</td>
                 `;
-                tbody.appendChild(row);
+                document.querySelector('#overall-results').appendChild(row);
             });
-
-            const activePlayersElement = document.getElementById('active-players');
-            if (activePlayersElement) {
-                activePlayersElement.textContent = results.length;
-            }
-        }
+    }
 
         async function initializeAnalysis() {
 
-            gameData = await readJsonFile();
+            const filename = getFilenameFromUrl();
+            gameData = await readJsonFile(filename);
 
             if (!gameData) {
                 console.error('Failed to load game data');
                 return;
             }
-
-            console.log('Game data loaded:', gameData);
-
-            const season123Data = convertToLegacyFormat(gameData);
-
+            document.querySelector('#main-title').textContent = `Season ${gameData.current_season} - ${gameData.clan_name} (${gameData.clan_tag})`;
             document.querySelector('#title').textContent = `🏆 Season ${gameData.current_season} Performance Analysis`;
+            document.querySelector('.subtitle').textContent = `Clan ${gameData.clan_name} (${gameData.clan_tag}) - Individual Player Performance with Percentages`;
             document.querySelector('#total-fame').textContent = gameData.total_clan_fame.toLocaleString();
             document.querySelector('#trophy-change').textContent = gameData.total_trophy_change.toLocaleString();
-
-            let fames = [];
-            for (let i = 0; i < gameData.clan_fame.length; i++) {
-                fames.push(gameData.clan_fame[i]);
-            }
-
-            document.querySelector('#colosseum-title').textContent += ` Score: ${fames[4].clan_fame.toLocaleString()}`;
-            document.querySelector('#war-day-4-title').textContent += ` Score: ${fames[3].clan_fame.toLocaleString()}`;
-            document.querySelector('#war-day-3-title').textContent += ` Score: ${fames[2].clan_fame.toLocaleString()}`;
-            document.querySelector('#war-day-2-title').textContent += ` Score: ${fames[1].clan_fame.toLocaleString()}`;
-            document.querySelector('#war-day-1-title').textContent += ` Score: ${fames[0].clan_fame.toLocaleString()}`;
-
-            const colosseumSection = season123Data.find(s => s.section === 4);
-            const day4Section = season123Data.find(s => s.section === 3);
-            const day3Section = season123Data.find(s => s.section === 2);
-            const day2Section = season123Data.find(s => s.section === 1);
-            const day1Section = season123Data.find(s => s.section === 0);
-
-            processWarData(colosseumSection, 'colosseum-results');
-            processWarData(day4Section, 'war-day-4-results');
-            processWarData(day3Section, 'war-day-3-results');
-            processWarData(day2Section, 'war-day-2-results');
-            processWarData(day1Section, 'war-day-1-results');
-
-            displayOverallResults();
+            document.querySelector('#war-weeks').textContent = gameData.total_weeks;
+            document.querySelector('#active-players').textContent = `${gameData.active_players}`;
+            loadTableHeaders(gameData);
+            displayOverallResults(gameData);
         }
 
         document.addEventListener('DOMContentLoaded', initializeAnalysis);

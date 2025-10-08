@@ -1,2843 +1,1142 @@
 {
+  "clan_name": "Lebanon",
+  "clan_tag": "2Q9Q2CU",
   "current_season": "124",
-  "player_scores": [
-    {
-      "season_key": "124-5",
-      "player_tag": "929Q0RGR",
-      "player_name": "Maher MO",
-      "player_fame": 3300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9JRJJU8U",
-      "player_name": "*LB* MIKHAEL",
-      "player_fame": 3250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2UU8JPPUJ",
-      "player_name": "9xRabba",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8PPCVU9UJ",
-      "player_name": "MR\u3005BOBKILLER",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "U089LLYQ",
-      "player_name": "DARK FURY",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "QJJLRUJJY",
-      "player_name": "Alii",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UGV2LJJUU",
-      "player_name": "Ph\u00f8enix",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UU2QGCJG",
-      "player_name": "ZINGOUL",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8Q8UJ2G8J",
-      "player_name": "*LB* ARROW",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "CPLLUC0V2",
-      "player_name": "abo zooz",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "U0P90Y228",
-      "player_name": "zakhiaa",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YJJPPGP88",
-      "player_name": "The legend",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2VR9L908U",
-      "player_name": "goat",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "G08ULU2P",
-      "player_name": "Jude",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9PYV0PQYP",
-      "player_name": "jamil",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "90GV8Y8RR",
-      "player_name": "\u2664MikDaD\u2664",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UJLCJGQPC",
-      "player_name": "CerealKiller",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RVUVU90C",
-      "player_name": "ahmad nsouli",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2J2GY228V",
-      "player_name": "MS4K.YT",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "CYQVLRG",
-      "player_name": "AnoNyMeX",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8VYYCC0QP",
-      "player_name": "10xRabba",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9P0R8VC",
-      "player_name": "bas3x",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "L8YRYYV88",
-      "player_name": "jadtarhini",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RCPYUYC2",
-      "player_name": "Jad",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RGP0P9UGJ",
-      "player_name": "*LB* RORO",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "QCL8GGUY",
-      "player_name": "wa\u00ebl",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "ULLUGUJYL",
-      "player_name": "*LB*afrout",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "J2RVUPYJR",
-      "player_name": "Anthony",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "JC2L8PR8",
-      "player_name": "sam",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "QPQULUUJQ",
-      "player_name": "Tiger2004",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "90PYVL0RC",
-      "player_name": "*LB* Shooter",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9828URUV2",
-      "player_name": "*LB* AIKO",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YQV0JLVGU",
-      "player_name": "THE KING GHADI",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "PJ2L9CPRR",
-      "player_name": "RoyalS-John",
-      "player_fame": 2550,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "PRCGY2PU",
-      "player_name": "Harrouk",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "LQ880Q0R",
-      "player_name": "No\u2022name:)",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "L9YCUCP0J",
-      "player_name": "<c5>IcYmAs6",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "P2LUQ9GJ",
-      "player_name": "*LB* FINKA",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UP8C0CPR",
-      "player_name": "Abdallah Thabet",
-      "player_fame": 2150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2280YRU20",
-      "player_name": "the boss",
-      "player_fame": 2000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UJ8LLJCLY",
-      "player_name": "AllahIncubator",
-      "player_fame": 1950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "JC0PPCR0V",
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "player_fame": 2650,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "PJR0RV9V",
-      "player_name": "anthoneyy",
-      "player_fame": 2350,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "CULP9LCPP",
-      "player_name": "*LB* mhmd .",
-      "player_fame": 2650,
-      "player_decks_used": 13
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "GJLY0LGQ",
-      "player_name": "Sir Hassan",
-      "player_fame": 2000,
-      "player_decks_used": 13
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "U889JGQYP",
-      "player_name": "*LB* mhmd",
-      "player_fame": 2600,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "99920UYC9",
-      "player_name": "hagop",
-      "player_fame": 2150,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "CCRGQPQCQ",
-      "player_name": "Jaqen H'ghar",
-      "player_fame": 1950,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "JLGQ9YVPG",
-      "player_name": "alexyy",
-      "player_fame": 1700,
-      "player_decks_used": 9
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "LLYPCUJGY",
-      "player_name": "barhoum",
-      "player_fame": 1200,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8VVVR098",
-      "player_name": "moe",
-      "player_fame": 800,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "G8J0GRP",
-      "player_name": "aly hd",
-      "player_fame": 400,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "VYURVQJG",
-      "player_name": "MESSI",
-      "player_fame": 200,
-      "player_decks_used": 2
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "Y20RL0U29",
-      "player_name": "Sn1x",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "L20JC2LVU",
-      "player_name": "Skrill",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "22008228",
-      "player_name": "\u2606\u300aMadZ_WaR\u300b\u2606",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "Q9Q02G2",
-      "player_name": "sefe7.almatador",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9J9QPJ",
-      "player_name": "\u24b9\u24b6\u24c7\u24c0 \u24c0\u24c3\u24be\u24bc\u24bd\u24c9",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "28QCQ9LGL",
-      "player_name": "the phenomenal",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RUVJUUCP9",
-      "player_name": "*LB*Ahmad",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "L2GLLQVL",
-      "player_name": "AliHakim",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9UVR98YGL",
-      "player_name": "Faze_Download",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2UGLVCQG",
-      "player_name": "Kral",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "VGGCVGQP",
-      "player_name": "\u00c2L\u00ce",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YCQJ9VYUJ",
-      "player_name": "<c2>Ahmed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9RU2JGJCV",
-      "player_name": "Ronaldooo",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "R9LQ2UP9Y",
-      "player_name": "ryuk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YQ8R2RQYL",
-      "player_name": "hadi\u201d",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "Q9RRV2CGU",
-      "player_name": "MenToYT",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "899GP222Q",
-      "player_name": "Defeater",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8JPJC9RJR",
-      "player_name": "boudi Zahed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "CJR99L890",
-      "player_name": "daren45hk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2G92C8G9",
-      "player_name": "Z\u00d8 Poseid\u00f3n2727",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "JQC8LQVV2",
-      "player_name": "pkomj",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "U8RG9UJLG",
-      "player_name": "~\u2022\u2606KILLER B\u2606\u2022~",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "LGJ2U0CV",
-      "player_name": "\u5091\u80fd moudi",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2R9LP89C2",
-      "player_name": "Ali",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8R0YJLJCY",
-      "player_name": "Freddy\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "GRYUPU9UP",
-      "player_name": "dated_king121",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "UJQG8P922",
-      "player_name": "BAHHH",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "Y8Y2RVJQC",
-      "player_name": "Hadz\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "2L0J98Q",
-      "player_name": "Dani",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "9Y99PGJP",
-      "player_name": "Shisho",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "290JCU8V",
-      "player_name": "UA I PITBULL\u2764\ufe0f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YLLQ0GL8V",
-      "player_name": "CNG I Brahim \u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "URC2Y0GJY",
-      "player_name": "charbel nader",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "V0RR2VRG",
-      "player_name": "vovy",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YRP8VL9GQ",
-      "player_name": "chicken bandit",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "LVUQL8QLL",
-      "player_name": "rock",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RCUU8VVVP",
-      "player_name": "\u00a7mo\u00f8th\u0177G",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "J9R2QGU90",
-      "player_name": "\u062c\u0648\u0627\u062f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "8G8QQLPVV",
-      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "RUYQJJ0U",
-      "player_name": "BerroXVI",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "YPJRLL08R",
-      "player_name": "edgar_",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "Y9LLRCPQU",
-      "player_name": "kxzzie",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-5",
-      "player_tag": "PJC8YYQPR",
-      "player_name": "Invictus",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UU2QGCJG",
-      "player_name": "ZINGOUL",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2VR9L908U",
-      "player_name": "goat",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2J2GY228V",
-      "player_name": "MS4K.YT",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "99920UYC9",
-      "player_name": "hagop",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "JC0PPCR0V",
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "L8YRYYV88",
-      "player_name": "jadtarhini",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "CPLLUC0V2",
-      "player_name": "abo zooz",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "ULLUGUJYL",
-      "player_name": "*LB*afrout",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UGV2LJJUU",
-      "player_name": "Ph\u00f8enix",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YQV0JLVGU",
-      "player_name": "THE KING GHADI",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RVUVU90C",
-      "player_name": "ahmad nsouli",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8VYYCC0QP",
-      "player_name": "10xRabba",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9PYV0PQYP",
-      "player_name": "jamil",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "J2RVUPYJR",
-      "player_name": "Anthony",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2UU8JPPUJ",
-      "player_name": "9xRabba",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9JRJJU8U",
-      "player_name": "*LB* MIKHAEL",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "U0P90Y228",
-      "player_name": "zakhiaa",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "G08ULU2P",
-      "player_name": "Jude",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "CYQVLRG",
-      "player_name": "AnoNyMeX",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8PPCVU9UJ",
-      "player_name": "MR\u3005BOBKILLER",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "90GV8Y8RR",
-      "player_name": "\u2664MikDaD\u2664",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "PJR0RV9V",
-      "player_name": "anthoneyy",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "GJLY0LGQ",
-      "player_name": "Sir Hassan",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "U089LLYQ",
-      "player_name": "DARK FURY",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YJJPPGP88",
-      "player_name": "The legend",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UJ8LLJCLY",
-      "player_name": "AllahIncubator",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RCPYUYC2",
-      "player_name": "Jad",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "QCL8GGUY",
-      "player_name": "wa\u00ebl",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9P0R8VC",
-      "player_name": "bas3x",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9828URUV2",
-      "player_name": "*LB* AIKO",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "JC2L8PR8",
-      "player_name": "sam",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "LQ880Q0R",
-      "player_name": "No\u2022name:)",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "90PYVL0RC",
-      "player_name": "*LB* Shooter",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RGP0P9UGJ",
-      "player_name": "*LB* RORO",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UJLCJGQPC",
-      "player_name": "CerealKiller",
-      "player_fame": 2450,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "QPQULUUJQ",
-      "player_name": "Tiger2004",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "L9YCUCP0J",
-      "player_name": "<c5>IcYmAs6",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "QJJLRUJJY",
-      "player_name": "Alii",
-      "player_fame": 2250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "PJ2L9CPRR",
-      "player_name": "RoyalS-John",
-      "player_fame": 2250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "PRCGY2PU",
-      "player_name": "Harrouk",
-      "player_fame": 2250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2280YRU20",
-      "player_name": "the boss",
-      "player_fame": 2850,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8VVVR098",
-      "player_name": "moe",
-      "player_fame": 2150,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "P2LUQ9GJ",
-      "player_name": "*LB* FINKA",
-      "player_fame": 2600,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "U889JGQYP",
-      "player_name": "*LB* mhmd",
-      "player_fame": 2500,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "CULP9LCPP",
-      "player_name": "*LB* mhmd .",
-      "player_fame": 2400,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8Q8UJ2G8J",
-      "player_name": "*LB* ARROW",
-      "player_fame": 1900,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "929Q0RGR",
-      "player_name": "Maher MO",
-      "player_fame": 2400,
-      "player_decks_used": 11
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YPJRLL08R",
-      "player_name": "edgar_",
-      "player_fame": 1200,
-      "player_decks_used": 9
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UP8C0CPR",
-      "player_name": "Abdallah Thabet",
-      "player_fame": 1125,
-      "player_decks_used": 9
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RCUU8VVVP",
-      "player_name": "\u00a7mo\u00f8th\u0177G",
-      "player_fame": 1475,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "LGJ2U0CV",
-      "player_name": "\u5091\u80fd moudi",
-      "player_fame": 1000,
-      "player_decks_used": 6
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "Y20RL0U29",
-      "player_name": "Sn1x",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "L20JC2LVU",
-      "player_name": "Skrill",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "22008228",
-      "player_name": "\u2606\u300aMadZ_WaR\u300b\u2606",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "Q9Q02G2",
-      "player_name": "sefe7.almatador",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9J9QPJ",
-      "player_name": "\u24b9\u24b6\u24c7\u24c0 \u24c0\u24c3\u24be\u24bc\u24bd\u24c9",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "28QCQ9LGL",
-      "player_name": "the phenomenal",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RUVJUUCP9",
-      "player_name": "*LB*Ahmad",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "L2GLLQVL",
-      "player_name": "AliHakim",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9UVR98YGL",
-      "player_name": "Faze_Download",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2UGLVCQG",
-      "player_name": "Kral",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "VGGCVGQP",
-      "player_name": "\u00c2L\u00ce",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YCQJ9VYUJ",
-      "player_name": "<c2>Ahmed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9RU2JGJCV",
-      "player_name": "Ronaldooo",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "R9LQ2UP9Y",
-      "player_name": "ryuk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YQ8R2RQYL",
-      "player_name": "hadi\u201d",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "Q9RRV2CGU",
-      "player_name": "MenToYT",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "899GP222Q",
-      "player_name": "Defeater",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8JPJC9RJR",
-      "player_name": "boudi Zahed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "CJR99L890",
-      "player_name": "daren45hk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2G92C8G9",
-      "player_name": "Z\u00d8 Poseid\u00f3n2727",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "JQC8LQVV2",
-      "player_name": "pkomj",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "U8RG9UJLG",
-      "player_name": "~\u2022\u2606KILLER B\u2606\u2022~",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2R9LP89C2",
-      "player_name": "Ali",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8R0YJLJCY",
-      "player_name": "Freddy\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "GRYUPU9UP",
-      "player_name": "dated_king121",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "UJQG8P922",
-      "player_name": "BAHHH",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "JLGQ9YVPG",
-      "player_name": "alexyy",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "Y8Y2RVJQC",
-      "player_name": "Hadz\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "2L0J98Q",
-      "player_name": "Dani",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "9Y99PGJP",
-      "player_name": "Shisho",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "290JCU8V",
-      "player_name": "UA I PITBULL\u2764\ufe0f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YLLQ0GL8V",
-      "player_name": "CNG I Brahim \u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "V0RR2VRG",
-      "player_name": "vovy",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "YRP8VL9GQ",
-      "player_name": "chicken bandit",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "LVUQL8QLL",
-      "player_name": "rock",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "J9R2QGU90",
-      "player_name": "\u062c\u0648\u0627\u062f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "8G8QQLPVV",
-      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "RUYQJJ0U",
-      "player_name": "BerroXVI",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "Y9LLRCPQU",
-      "player_name": "kxzzie",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-4",
-      "player_tag": "URC2Y0GJY",
-      "player_name": "charbel nader",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "JC2L8PR8",
-      "player_name": "sam",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2UU8JPPUJ",
-      "player_name": "9xRabba",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8VVVR098",
-      "player_name": "moe",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "ULLUGUJYL",
-      "player_name": "*LB*afrout",
-      "player_fame": 3300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8Q8UJ2G8J",
-      "player_name": "*LB* ARROW",
-      "player_fame": 3300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "CULP9LCPP",
-      "player_name": "*LB* mhmd .",
-      "player_fame": 3300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "LGJ2U0CV",
-      "player_name": "\u5091\u80fd moudi",
-      "player_fame": 3250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "UGV2LJJUU",
-      "player_name": "Ph\u00f8enix",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9828URUV2",
-      "player_name": "*LB* AIKO",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9P0R8VC",
-      "player_name": "bas3x",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "UU2QGCJG",
-      "player_name": "ZINGOUL",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "U889JGQYP",
-      "player_name": "*LB* mhmd",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "UJLCJGQPC",
-      "player_name": "CerealKiller",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "QJJLRUJJY",
-      "player_name": "Alii",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "QPQULUUJQ",
-      "player_name": "Tiger2004",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "JC0PPCR0V",
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "L9YCUCP0J",
-      "player_name": "<c5>IcYmAs6",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2J2GY228V",
-      "player_name": "MS4K.YT",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "PRCGY2PU",
-      "player_name": "Harrouk",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2VR9L908U",
-      "player_name": "goat",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "CYQVLRG",
-      "player_name": "AnoNyMeX",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "U0P90Y228",
-      "player_name": "zakhiaa",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YQV0JLVGU",
-      "player_name": "THE KING GHADI",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "U089LLYQ",
-      "player_name": "DARK FURY",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9PYV0PQYP",
-      "player_name": "jamil",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "QCL8GGUY",
-      "player_name": "wa\u00ebl",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8PPCVU9UJ",
-      "player_name": "MR\u3005BOBKILLER",
-      "player_fame": 2550,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "UJ8LLJCLY",
-      "player_name": "AllahIncubator",
-      "player_fame": 2550,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2280YRU20",
-      "player_name": "the boss",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YPJRLL08R",
-      "player_name": "edgar_",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8VYYCC0QP",
-      "player_name": "10xRabba",
-      "player_fame": 2450,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9Y99PGJP",
-      "player_name": "Shisho",
-      "player_fame": 2400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YJJPPGP88",
-      "player_name": "The legend",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "PJR0RV9V",
-      "player_name": "anthoneyy",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "LQ880Q0R",
-      "player_name": "No\u2022name:)",
-      "player_fame": 2150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "28QCQ9LGL",
-      "player_name": "the phenomenal",
-      "player_fame": 2100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "RCPYUYC2",
-      "player_name": "Jad",
-      "player_fame": 2100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "RGP0P9UGJ",
-      "player_name": "*LB* RORO",
-      "player_fame": 2050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "90PYVL0RC",
-      "player_name": "*LB* Shooter",
-      "player_fame": 2000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "L8YRYYV88",
-      "player_name": "jadtarhini",
-      "player_fame": 2600,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "G08ULU2P",
-      "player_name": "Jude",
-      "player_fame": 2550,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9JRJJU8U",
-      "player_name": "*LB* MIKHAEL",
-      "player_fame": 2300,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "99920UYC9",
-      "player_name": "hagop",
-      "player_fame": 2200,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "929Q0RGR",
-      "player_name": "Maher MO",
-      "player_fame": 2150,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "RVUVU90C",
-      "player_name": "ahmad nsouli",
-      "player_fame": 1750,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "90GV8Y8RR",
-      "player_name": "\u2664MikDaD\u2664",
-      "player_fame": 1650,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "JQC8LQVV2",
-      "player_name": "pkomj",
-      "player_fame": 1300,
-      "player_decks_used": 10
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "R9LQ2UP9Y",
-      "player_name": "ryuk",
-      "player_fame": 1600,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "JLGQ9YVPG",
-      "player_name": "alexyy",
-      "player_fame": 1600,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YQ8R2RQYL",
-      "player_name": "hadi\u201d",
-      "player_fame": 800,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "CPLLUC0V2",
-      "player_name": "abo zooz",
-      "player_fame": 650,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "P2LUQ9GJ",
-      "player_name": "*LB* FINKA",
-      "player_fame": 550,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "Y20RL0U29",
-      "player_name": "Sn1x",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "L20JC2LVU",
-      "player_name": "Skrill",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "22008228",
-      "player_name": "\u2606\u300aMadZ_WaR\u300b\u2606",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "Q9Q02G2",
-      "player_name": "sefe7.almatador",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9J9QPJ",
-      "player_name": "\u24b9\u24b6\u24c7\u24c0 \u24c0\u24c3\u24be\u24bc\u24bd\u24c9",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "RUVJUUCP9",
-      "player_name": "*LB*Ahmad",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "L2GLLQVL",
-      "player_name": "AliHakim",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9UVR98YGL",
-      "player_name": "Faze_Download",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2UGLVCQG",
-      "player_name": "Kral",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "VGGCVGQP",
-      "player_name": "\u00c2L\u00ce",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YCQJ9VYUJ",
-      "player_name": "<c2>Ahmed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "9RU2JGJCV",
-      "player_name": "Ronaldooo",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "Q9RRV2CGU",
-      "player_name": "MenToYT",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "899GP222Q",
-      "player_name": "Defeater",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "CJR99L890",
-      "player_name": "daren45hk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2G92C8G9",
-      "player_name": "Z\u00d8 Poseid\u00f3n2727",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "U8RG9UJLG",
-      "player_name": "~\u2022\u2606KILLER B\u2606\u2022~",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8R0YJLJCY",
-      "player_name": "Freddy\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "GRYUPU9UP",
-      "player_name": "dated_king121",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "UJQG8P922",
-      "player_name": "BAHHH",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "Y8Y2RVJQC",
-      "player_name": "Hadz\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "2L0J98Q",
-      "player_name": "Dani",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "290JCU8V",
-      "player_name": "UA I PITBULL\u2764\ufe0f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YLLQ0GL8V",
-      "player_name": "CNG I Brahim \u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "YRP8VL9GQ",
-      "player_name": "chicken bandit",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "8G8QQLPVV",
-      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "RUYQJJ0U",
-      "player_name": "BerroXVI",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "LVUQL8QLL",
-      "player_name": "rock",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "V0RR2VRG",
-      "player_name": "vovy",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-3",
-      "player_tag": "J9R2QGU90",
-      "player_name": "\u062c\u0648\u0627\u062f",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "ULLUGUJYL",
-      "player_name": "*LB*afrout",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "CYQVLRG",
-      "player_name": "AnoNyMeX",
-      "player_fame": 3300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8PPCVU9UJ",
-      "player_name": "MR\u3005BOBKILLER",
-      "player_fame": 3200,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "CULP9LCPP",
-      "player_name": "*LB* mhmd .",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2UU8JPPUJ",
-      "player_name": "9xRabba",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "UU2QGCJG",
-      "player_name": "ZINGOUL",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2VR9L908U",
-      "player_name": "goat",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9JRJJU8U",
-      "player_name": "*LB* MIKHAEL",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "L9YCUCP0J",
-      "player_name": "<c5>IcYmAs6",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YQV0JLVGU",
-      "player_name": "THE KING GHADI",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9P0R8VC",
-      "player_name": "bas3x",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "QPQULUUJQ",
-      "player_name": "Tiger2004",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9Y99PGJP",
-      "player_name": "Shisho",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "28QCQ9LGL",
-      "player_name": "the phenomenal",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "99920UYC9",
-      "player_name": "hagop",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YJJPPGP88",
-      "player_name": "The legend",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "PRCGY2PU",
-      "player_name": "Harrouk",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "QCL8GGUY",
-      "player_name": "wa\u00ebl",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "RCPYUYC2",
-      "player_name": "Jad",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "L8YRYYV88",
-      "player_name": "jadtarhini",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9828URUV2",
-      "player_name": "*LB* AIKO",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8Q8UJ2G8J",
-      "player_name": "*LB* ARROW",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "UGV2LJJUU",
-      "player_name": "Ph\u00f8enix",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "UJLCJGQPC",
-      "player_name": "CerealKiller",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2J2GY228V",
-      "player_name": "MS4K.YT",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "JC0PPCR0V",
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "LGJ2U0CV",
-      "player_name": "\u5091\u80fd moudi",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "JLGQ9YVPG",
-      "player_name": "alexyy",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "U089LLYQ",
-      "player_name": "DARK FURY",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "LQ880Q0R",
-      "player_name": "No\u2022name:)",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8VYYCC0QP",
-      "player_name": "10xRabba",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8VVVR098",
-      "player_name": "moe",
-      "player_fame": 2550,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "RGP0P9UGJ",
-      "player_name": "*LB* RORO",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "90GV8Y8RR",
-      "player_name": "\u2664MikDaD\u2664",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "U0P90Y228",
-      "player_name": "zakhiaa",
-      "player_fame": 2450,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "QJJLRUJJY",
-      "player_name": "Alii",
-      "player_fame": 2450,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "RVUVU90C",
-      "player_name": "ahmad nsouli",
-      "player_fame": 2450,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "G08ULU2P",
-      "player_name": "Jude",
-      "player_fame": 2350,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9PYV0PQYP",
-      "player_name": "jamil",
-      "player_fame": 2250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2L0J98Q",
-      "player_name": "Dani",
-      "player_fame": 2100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YPJRLL08R",
-      "player_name": "edgar_",
-      "player_fame": 2050,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "U889JGQYP",
-      "player_name": "*LB* mhmd",
-      "player_fame": 2500,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "CPLLUC0V2",
-      "player_name": "abo zooz",
-      "player_fame": 2250,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "P2LUQ9GJ",
-      "player_name": "*LB* FINKA",
-      "player_fame": 2000,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2280YRU20",
-      "player_name": "the boss",
-      "player_fame": 2000,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "929Q0RGR",
-      "player_name": "Maher MO",
-      "player_fame": 1250,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "RUYQJJ0U",
-      "player_name": "BerroXVI",
-      "player_fame": 1100,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8G8QQLPVV",
-      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
-      "player_fame": 900,
-      "player_decks_used": 7
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "JC2L8PR8",
-      "player_name": "sam",
-      "player_fame": 700,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "JQC8LQVV2",
-      "player_name": "pkomj",
-      "player_fame": 700,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YRP8VL9GQ",
-      "player_name": "chicken bandit",
-      "player_fame": 500,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "UJQG8P922",
-      "player_name": "BAHHH",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "CJR99L890",
-      "player_name": "daren45hk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9RU2JGJCV",
-      "player_name": "Ronaldooo",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "Q9Q02G2",
-      "player_name": "sefe7.almatador",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "90PYVL0RC",
-      "player_name": "*LB* Shooter",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "Y20RL0U29",
-      "player_name": "Sn1x",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "RUVJUUCP9",
-      "player_name": "*LB*Ahmad",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "U8RG9UJLG",
-      "player_name": "~\u2022\u2606KILLER B\u2606\u2022~",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YCQJ9VYUJ",
-      "player_name": "<c2>Ahmed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "YLLQ0GL8V",
-      "player_name": "CNG I Brahim \u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2G92C8G9",
-      "player_name": "Z\u00d8 Poseid\u00f3n2727",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9J9QPJ",
-      "player_name": "\u24b9\u24b6\u24c7\u24c0 \u24c0\u24c3\u24be\u24bc\u24bd\u24c9",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "899GP222Q",
-      "player_name": "Defeater",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "9UVR98YGL",
-      "player_name": "Faze_Download",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "GRYUPU9UP",
-      "player_name": "dated_king121",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "L2GLLQVL",
-      "player_name": "AliHakim",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "Q9RRV2CGU",
-      "player_name": "MenToYT",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "22008228",
-      "player_name": "\u2606\u300aMadZ_WaR\u300b\u2606",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "2UGLVCQG",
-      "player_name": "Kral",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "8R0YJLJCY",
-      "player_name": "Freddy\u2122",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-2",
-      "player_tag": "R9LQ2UP9Y",
-      "player_name": "ryuk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9JRJJU8U",
-      "player_name": "*LB* MIKHAEL",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "U889JGQYP",
-      "player_name": "*LB* mhmd",
-      "player_fame": 3400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "U0P90Y228",
-      "player_name": "zakhiaa",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "UU2QGCJG",
-      "player_name": "ZINGOUL",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "8Q8UJ2G8J",
-      "player_name": "*LB* ARROW",
-      "player_fame": 3150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "UGV2LJJUU",
-      "player_name": "Ph\u00f8enix",
-      "player_fame": 3100,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9828URUV2",
-      "player_name": "*LB* AIKO",
-      "player_fame": 3050,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "CULP9LCPP",
-      "player_name": "*LB* mhmd .",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "2UU8JPPUJ",
-      "player_name": "9xRabba",
-      "player_fame": 3000,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9P0R8VC",
-      "player_name": "bas3x",
-      "player_fame": 2950,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "ULLUGUJYL",
-      "player_name": "*LB*afrout",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "PRCGY2PU",
-      "player_name": "Harrouk",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "L8YRYYV88",
-      "player_name": "jadtarhini",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "QPQULUUJQ",
-      "player_name": "Tiger2004",
-      "player_fame": 2900,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "RCPYUYC2",
-      "player_name": "Jad",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "L9YCUCP0J",
-      "player_name": "<c5>IcYmAs6",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9Y99PGJP",
-      "player_name": "Shisho",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "JC0PPCR0V",
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "player_fame": 2850,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "U089LLYQ",
-      "player_name": "DARK FURY",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "RGP0P9UGJ",
-      "player_name": "*LB* RORO",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "99920UYC9",
-      "player_name": "hagop",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "2VR9L908U",
-      "player_name": "goat",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "JLGQ9YVPG",
-      "player_name": "alexyy",
-      "player_fame": 2800,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "28QCQ9LGL",
-      "player_name": "the phenomenal",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "929Q0RGR",
-      "player_name": "Maher MO",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "QJJLRUJJY",
-      "player_name": "Alii",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "2280YRU20",
-      "player_name": "the boss",
-      "player_fame": 2750,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YQV0JLVGU",
-      "player_name": "THE KING GHADI",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "2J2GY228V",
-      "player_name": "MS4K.YT",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "8VYYCC0QP",
-      "player_name": "10xRabba",
-      "player_fame": 2700,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "QCL8GGUY",
-      "player_name": "wa\u00ebl",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "UJLCJGQPC",
-      "player_name": "CerealKiller",
-      "player_fame": 2650,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "8PPCVU9UJ",
-      "player_name": "MR\u3005BOBKILLER",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YJJPPGP88",
-      "player_name": "The legend",
-      "player_fame": 2600,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "LQ880Q0R",
-      "player_name": "No\u2022name:)",
-      "player_fame": 2550,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "CYQVLRG",
-      "player_name": "AnoNyMeX",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "90GV8Y8RR",
-      "player_name": "\u2664MikDaD\u2664",
-      "player_fame": 2500,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "LGJ2U0CV",
-      "player_name": "\u5091\u80fd moudi",
-      "player_fame": 2400,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "90PYVL0RC",
-      "player_name": "*LB* Shooter",
-      "player_fame": 2300,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9PYV0PQYP",
-      "player_name": "jamil",
-      "player_fame": 2250,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "P2LUQ9GJ",
-      "player_name": "*LB* FINKA",
-      "player_fame": 2150,
-      "player_decks_used": 16
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "RUVJUUCP9",
-      "player_name": "*LB*Ahmad",
-      "player_fame": 2500,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YPJRLL08R",
-      "player_name": "edgar_",
-      "player_fame": 2300,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "RVUVU90C",
-      "player_name": "ahmad nsouli",
-      "player_fame": 2100,
-      "player_decks_used": 15
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "CPLLUC0V2",
-      "player_name": "abo zooz",
-      "player_fame": 2450,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "G08ULU2P",
-      "player_name": "Jude",
-      "player_fame": 1750,
-      "player_decks_used": 12
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YLLQ0GL8V",
-      "player_name": "CNG I Brahim \u2122",
-      "player_fame": 1700,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "RUYQJJ0U",
-      "player_name": "BerroXVI",
-      "player_fame": 1250,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "8VVVR098",
-      "player_name": "moe",
-      "player_fame": 1100,
-      "player_decks_used": 8
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YRP8VL9GQ",
-      "player_name": "chicken bandit",
-      "player_fame": 500,
-      "player_decks_used": 4
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "UJQG8P922",
-      "player_name": "BAHHH",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "CJR99L890",
-      "player_name": "daren45hk",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9RU2JGJCV",
-      "player_name": "Ronaldooo",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "Q9Q02G2",
-      "player_name": "sefe7.almatador",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "JC2L8PR8",
-      "player_name": "sam",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "Y20RL0U29",
-      "player_name": "Sn1x",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "U8RG9UJLG",
-      "player_name": "~\u2022\u2606KILLER B\u2606\u2022~",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "YCQJ9VYUJ",
-      "player_name": "<c2>Ahmed",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "2G92C8G9",
-      "player_name": "Z\u00d8 Poseid\u00f3n2727",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "9J9QPJ",
-      "player_name": "\u24b9\u24b6\u24c7\u24c0 \u24c0\u24c3\u24be\u24bc\u24bd\u24c9",
-      "player_fame": 0,
-      "player_decks_used": 0
-    },
-    {
-      "season_key": "124-1",
-      "player_tag": "899GP222Q",
-      "player_name": "Defeater",
-      "player_fame": 0,
-      "player_decks_used": 0
-    }
+  "total_weeks": 5,
+  "week_weight": [
+    0.3,
+    0.2,
+    0.2,
+    0.15,
+    0.15
   ],
-  "clan_fame": [
+  "player_final_scores": [
     {
-      "season_key": "124-1",
-      "clan_fame": 8512
+      "player_name": "*LB* mhmd",
+      "overall_player_score": 92.12962962962963,
+      "player_weekly_fame": [
+        2600,
+        2500,
+        3000,
+        2500,
+        3400
+      ],
+      "max_possible_fame": [
+        2700,
+        2700,
+        3600,
+        2700,
+        3600
+      ]
     },
     {
-      "season_key": "124-2",
-      "clan_fame": 6140
+      "player_name": "9xRabba",
+      "overall_player_score": 87.29166666666667,
+      "player_weekly_fame": [
+        3200,
+        2900,
+        3400,
+        3150,
+        3000
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
     },
     {
-      "season_key": "124-3",
-      "clan_fame": 6704
+      "player_name": "*LB* MIKHAEL",
+      "overall_player_score": 87.10648148148148,
+      "player_weekly_fame": [
+        3250,
+        2900,
+        2300,
+        3050,
+        3400
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        2700,
+        3600,
+        3600
+      ]
     },
     {
-      "season_key": "124-4",
-      "clan_fame": 10000
+      "player_name": "ZINGOUL",
+      "overall_player_score": 86.52777777777777,
+      "player_weekly_fame": [
+        3100,
+        3200,
+        3000,
+        3150,
+        3150
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
     },
     {
-      "season_key": "124-5",
-      "clan_fame": 135650
+      "player_name": "Ph\u00f8enix",
+      "overall_player_score": 84.44444444444446,
+      "player_weekly_fame": [
+        3100,
+        3050,
+        3150,
+        2700,
+        3100
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* mhmd .",
+      "overall_player_score": 83.81944444444444,
+      "player_weekly_fame": [
+        2650,
+        2400,
+        3300,
+        3150,
+        3000
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "abo zooz",
+      "overall_player_score": 83.61111111111111,
+      "player_weekly_fame": [
+        3100,
+        3100,
+        650,
+        2250,
+        2450
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        900,
+        2700,
+        2700
+      ]
+    },
+    {
+      "player_name": "*LB*afrout",
+      "overall_player_score": 83.61111111111111,
+      "player_weekly_fame": [
+        2650,
+        3050,
+        3300,
+        3400,
+        2900
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Maher MO",
+      "overall_player_score": 83.07870370370371,
+      "player_weekly_fame": [
+        3300,
+        2400,
+        2150,
+        1250,
+        2750
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        2700,
+        1800,
+        3600
+      ]
+    },
+    {
+      "player_name": "goat",
+      "overall_player_score": 82.91666666666667,
+      "player_weekly_fame": [
+        3000,
+        3200,
+        2800,
+        3100,
+        2800
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* ARROW",
+      "overall_player_score": 82.82407407407408,
+      "player_weekly_fame": [
+        3100,
+        1900,
+        3300,
+        2750,
+        3150
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "hagop",
+      "overall_player_score": 81.01851851851852,
+      "player_weekly_fame": [
+        2150,
+        3150,
+        2200,
+        2800,
+        2800
+      ],
+      "max_possible_fame": [
+        2700,
+        3600,
+        2700,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "MS4K.YT",
+      "overall_player_score": 80.55555555555556,
+      "player_weekly_fame": [
+        2900,
+        3200,
+        2900,
+        2700,
+        2700
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "MR\u3005BOBKILLER",
+      "overall_player_score": 80.55555555555554,
+      "player_weekly_fame": [
+        3200,
+        2800,
+        2550,
+        3200,
+        2600
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "zakhiaa",
+      "overall_player_score": 80.13888888888889,
+      "player_weekly_fame": [
+        3050,
+        2900,
+        2750,
+        2450,
+        3150
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "bas3x",
+      "overall_player_score": 79.58333333333334,
+      "player_weekly_fame": [
+        2800,
+        2650,
+        3050,
+        2950,
+        2950
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "DARK FURY",
+      "overall_player_score": 79.44444444444444,
+      "player_weekly_fame": [
+        3200,
+        2750,
+        2700,
+        2600,
+        2800
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "AnoNyMeX",
+      "overall_player_score": 79.02777777777779,
+      "player_weekly_fame": [
+        2850,
+        2850,
+        2750,
+        3300,
+        2500
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
+      "overall_player_score": 78.54166666666667,
+      "player_weekly_fame": [
+        2650,
+        3100,
+        2900,
+        2700,
+        2850
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "jadtarhini",
+      "overall_player_score": 78.54166666666666,
+      "player_weekly_fame": [
+        2800,
+        3100,
+        2600,
+        2750,
+        2900
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* AIKO",
+      "overall_player_score": 77.77777777777777,
+      "player_weekly_fame": [
+        2600,
+        2650,
+        3100,
+        2750,
+        3050
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "moe",
+      "overall_player_score": 77.29166666666667,
+      "player_weekly_fame": [
+        800,
+        2150,
+        3400,
+        2550,
+        1100
+      ],
+      "max_possible_fame": [
+        900,
+        3600,
+        3600,
+        3600,
+        1800
+      ]
+    },
+    {
+      "player_name": "Alii",
+      "overall_player_score": 77.22222222222221,
+      "player_weekly_fame": [
+        3200,
+        2250,
+        2950,
+        2450,
+        2750
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "THE KING GHADI",
+      "overall_player_score": 77.08333333333333,
+      "player_weekly_fame": [
+        2600,
+        3000,
+        2700,
+        3000,
+        2700
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "CerealKiller",
+      "overall_player_score": 76.875,
+      "player_weekly_fame": [
+        2950,
+        2450,
+        2950,
+        2700,
+        2650
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "The legend",
+      "overall_player_score": 76.25,
+      "player_weekly_fame": [
+        3050,
+        2750,
+        2350,
+        2800,
+        2600
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "10xRabba",
+      "overall_player_score": 75.83333333333333,
+      "player_weekly_fame": [
+        2850,
+        2950,
+        2450,
+        2600,
+        2700
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Tiger2004",
+      "overall_player_score": 75.20833333333334,
+      "player_weekly_fame": [
+        2600,
+        2350,
+        2900,
+        2950,
+        2900
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "jamil",
+      "overall_player_score": 74.86111111111111,
+      "player_weekly_fame": [
+        3000,
+        2950,
+        2650,
+        2250,
+        2250
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "wa\u00ebl",
+      "overall_player_score": 74.86111111111111,
+      "player_weekly_fame": [
+        2750,
+        2700,
+        2600,
+        2750,
+        2650
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Jude",
+      "overall_player_score": 74.79166666666667,
+      "player_weekly_fame": [
+        3000,
+        2900,
+        2550,
+        2350,
+        1750
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        2700
+      ]
+    },
+    {
+      "player_name": "<c5>IcYmAs6",
+      "overall_player_score": 74.58333333333333,
+      "player_weekly_fame": [
+        2500,
+        2350,
+        2900,
+        3050,
+        2850
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "\u2664MikDaD\u2664",
+      "overall_player_score": 73.61111111111111,
+      "player_weekly_fame": [
+        3000,
+        2800,
+        1650,
+        2500,
+        2500
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        2700,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Jad",
+      "overall_player_score": 73.33333333333333,
+      "player_weekly_fame": [
+        2800,
+        2700,
+        2100,
+        2750,
+        2850
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "ahmad nsouli",
+      "overall_player_score": 72.47685185185185,
+      "player_weekly_fame": [
+        2900,
+        2950,
+        1750,
+        2450,
+        2100
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        2700,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Harrouk",
+      "overall_player_score": 72.43055555555556,
+      "player_weekly_fame": [
+        2500,
+        2250,
+        2800,
+        2750,
+        2900
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* FINKA",
+      "overall_player_score": 71.13425925925925,
+      "player_weekly_fame": [
+        2350,
+        2600,
+        550,
+        2000,
+        2150
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        900,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* RORO",
+      "overall_player_score": 70.27777777777779,
+      "player_weekly_fame": [
+        2750,
+        2500,
+        2050,
+        2500,
+        2800
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "the boss",
+      "overall_player_score": 68.95833333333333,
+      "player_weekly_fame": [
+        2000,
+        2850,
+        2500,
+        2000,
+        2750
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "No\u2022name:)",
+      "overall_player_score": 68.68055555555556,
+      "player_weekly_fame": [
+        2500,
+        2600,
+        2150,
+        2600,
+        2550
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "sam",
+      "overall_player_score": 66.66666666666667,
+      "player_weekly_fame": [
+        2600,
+        2600,
+        3400,
+        700,
+        0
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        900,
+        1
+      ]
+    },
+    {
+      "player_name": "alexyy",
+      "overall_player_score": 59.375,
+      "player_weekly_fame": [
+        1700,
+        0,
+        1600,
+        2650,
+        2800
+      ],
+      "max_possible_fame": [
+        2700,
+        1,
+        1800,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* Shooter",
+      "overall_player_score": 56.25000000000001,
+      "player_weekly_fame": [
+        2600,
+        2500,
+        2000,
+        0,
+        2300
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        1,
+        3600
+      ]
+    },
+    {
+      "player_name": "\u5091\u80fd moudi",
+      "overall_player_score": 50.20833333333333,
+      "player_weekly_fame": [
+        0,
+        1000,
+        3250,
+        2650,
+        2400
+      ],
+      "max_possible_fame": [
+        1,
+        1800,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "anthoneyy",
+      "overall_player_score": 47.91666666666667,
+      "player_weekly_fame": [
+        2350,
+        2750,
+        2350
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "AllahIncubator",
+      "overall_player_score": 45.416666666666664,
+      "player_weekly_fame": [
+        1950,
+        2700,
+        2550
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "edgar_",
+      "overall_player_score": 40.90277777777778,
+      "player_weekly_fame": [
+        0,
+        1200,
+        2500,
+        2050,
+        2300
+      ],
+      "max_possible_fame": [
+        1,
+        2700,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Anthony",
+      "overall_player_score": 38.47222222222222,
+      "player_weekly_fame": [
+        2650,
+        2950
+      ],
+      "max_possible_fame": [
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Shisho",
+      "overall_player_score": 37.29166666666667,
+      "player_weekly_fame": [
+        0,
+        0,
+        2400,
+        2900,
+        2850
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "the phenomenal",
+      "overall_player_score": 35.0,
+      "player_weekly_fame": [
+        0,
+        0,
+        2100,
+        2850,
+        2750
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "RoyalS-John",
+      "overall_player_score": 33.75,
+      "player_weekly_fame": [
+        2550,
+        2250
+      ],
+      "max_possible_fame": [
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Sir Hassan",
+      "overall_player_score": 31.944444444444443,
+      "player_weekly_fame": [
+        2000,
+        2750
+      ],
+      "max_possible_fame": [
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Abdallah Thabet",
+      "overall_player_score": 26.25,
+      "player_weekly_fame": [
+        2150,
+        1125
+      ],
+      "max_possible_fame": [
+        3600,
+        2700
+      ]
+    },
+    {
+      "player_name": "Jaqen H'ghar",
+      "overall_player_score": 21.666666666666668,
+      "player_weekly_fame": [
+        1950
+      ],
+      "max_possible_fame": [
+        2700
+      ]
+    },
+    {
+      "player_name": "pkomj",
+      "overall_player_score": 21.296296296296298,
+      "player_weekly_fame": [
+        0,
+        0,
+        1300,
+        700
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        2700,
+        900
+      ]
+    },
+    {
+      "player_name": "barhoum",
+      "overall_player_score": 20.0,
+      "player_weekly_fame": [
+        1200
+      ],
+      "max_possible_fame": [
+        1800
+      ]
+    },
+    {
+      "player_name": "BerroXVI",
+      "overall_player_score": 19.583333333333336,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        1100,
+        1250
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        1800,
+        1800
+      ]
+    },
+    {
+      "player_name": "ryuk",
+      "overall_player_score": 17.77777777777778,
+      "player_weekly_fame": [
+        0,
+        0,
+        1600,
+        0
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1800,
+        1
+      ]
+    },
+    {
+      "player_name": "hadi\u201d",
+      "overall_player_score": 17.77777777777778,
+      "player_weekly_fame": [
+        0,
+        0,
+        800
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "chicken bandit",
+      "overall_player_score": 16.666666666666664,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        500,
+        500
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        900,
+        900
+      ]
+    },
+    {
+      "player_name": "\u00a7mo\u00f8th\u0177G",
+      "overall_player_score": 16.38888888888889,
+      "player_weekly_fame": [
+        0,
+        1475
+      ],
+      "max_possible_fame": [
+        1,
+        1800
+      ]
+    },
+    {
+      "player_name": "CNG I Brahim \u2122",
+      "overall_player_score": 14.166666666666666,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        0,
+        1700
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        1,
+        1800
+      ]
+    },
+    {
+      "player_name": "aly hd",
+      "overall_player_score": 13.333333333333334,
+      "player_weekly_fame": [
+        400
+      ],
+      "max_possible_fame": [
+        900
+      ]
+    },
+    {
+      "player_name": "*LB*Ahmad",
+      "overall_player_score": 10.416666666666668,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        0,
+        2500
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        1,
+        3600
+      ]
+    },
+    {
+      "player_name": "Dani",
+      "overall_player_score": 8.75,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        2100
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        3600
+      ]
+    },
+    {
+      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
+      "overall_player_score": 7.5,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
+        900
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        1800
+      ]
+    },
+    {
+      "player_name": "MESSI",
+      "overall_player_score": 6.666666666666667,
+      "player_weekly_fame": [
+        200
+      ],
+      "max_possible_fame": [
+        900
+      ]
     }
   ],
   "total_clan_fame": 167006,
-  "total_trophy_change": -10
+  "total_trophy_change": -10,
+  "active_players": 67
 }
