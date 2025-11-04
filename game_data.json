@@ -1,262 +1,25 @@
 {
   "clan_name": "Lebanon",
   "clan_tag": "2Q9Q2CU",
-  "current_season": "124",
-  "total_weeks": 5,
+  "current_season": "125",
+  "total_weeks": 4,
   "week_weight": [
-    0.3,
+    0.4,
     0.2,
     0.2,
-    0.15,
-    0.15
+    0.2
   ],
   "player_final_scores": [
     {
-      "player_name": "*LB* mhmd",
-      "overall_player_score": 92.12962962962963,
-      "player_weekly_fame": [
-        2600,
-        2500,
-        3000,
-        2500,
-        3400
-      ],
-      "max_possible_fame": [
-        2700,
-        2700,
-        3600,
-        2700,
-        3600
-      ]
-    },
-    {
-      "player_name": "9xRabba",
-      "overall_player_score": 87.29166666666667,
-      "player_weekly_fame": [
-        3200,
-        2900,
-        3400,
-        3150,
-        3000
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* MIKHAEL",
-      "overall_player_score": 87.10648148148148,
-      "player_weekly_fame": [
-        3250,
-        2900,
-        2300,
-        3050,
-        3400
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        2700,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "ZINGOUL",
-      "overall_player_score": 86.52777777777777,
-      "player_weekly_fame": [
-        3100,
-        3200,
-        3000,
-        3150,
-        3150
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Ph\u00f8enix",
-      "overall_player_score": 84.44444444444446,
-      "player_weekly_fame": [
-        3100,
-        3050,
-        3150,
-        2700,
-        3100
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* mhmd .",
-      "overall_player_score": 83.81944444444444,
-      "player_weekly_fame": [
-        2650,
-        2400,
-        3300,
-        3150,
-        3000
-      ],
-      "max_possible_fame": [
-        3600,
-        2700,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "abo zooz",
-      "overall_player_score": 83.61111111111111,
-      "player_weekly_fame": [
-        3100,
-        3100,
-        650,
-        2250,
-        2450
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        900,
-        2700,
-        2700
-      ]
-    },
-    {
-      "player_name": "*LB*afrout",
-      "overall_player_score": 83.61111111111111,
-      "player_weekly_fame": [
-        2650,
-        3050,
-        3300,
-        3400,
-        2900
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Maher MO",
-      "overall_player_score": 83.07870370370371,
-      "player_weekly_fame": [
-        3300,
-        2400,
-        2150,
-        1250,
-        2750
-      ],
-      "max_possible_fame": [
-        3600,
-        2700,
-        2700,
-        1800,
-        3600
-      ]
-    },
-    {
       "player_name": "goat",
-      "overall_player_score": 82.91666666666667,
-      "player_weekly_fame": [
-        3000,
-        3200,
-        2800,
-        3100,
-        2800
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* ARROW",
-      "overall_player_score": 82.82407407407408,
-      "player_weekly_fame": [
-        3100,
-        1900,
-        3300,
-        2750,
-        3150
-      ],
-      "max_possible_fame": [
-        3600,
-        2700,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "hagop",
-      "overall_player_score": 81.01851851851852,
-      "player_weekly_fame": [
-        2150,
-        3150,
-        2200,
-        2800,
-        2800
-      ],
-      "max_possible_fame": [
-        2700,
-        3600,
-        2700,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "MS4K.YT",
-      "overall_player_score": 80.55555555555556,
+      "overall_player_score": 81.94444444444444,
       "player_weekly_fame": [
         2900,
         3200,
         2900,
-        2700,
-        2700
+        2850
       ],
       "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "MR\u3005BOBKILLER",
-      "overall_player_score": 80.55555555555554,
-      "player_weekly_fame": [
-        3200,
-        2800,
-        2550,
-        3200,
-        2600
-      ],
-      "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -265,16 +28,14 @@
     },
     {
       "player_name": "zakhiaa",
-      "overall_player_score": 80.13888888888889,
+      "overall_player_score": 81.66666666666667,
       "player_weekly_fame": [
-        3050,
-        2900,
-        2750,
-        2450,
-        3150
+        2400,
+        3500,
+        3000,
+        3400
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -282,17 +43,15 @@
       ]
     },
     {
-      "player_name": "bas3x",
-      "overall_player_score": 79.58333333333334,
+      "player_name": "*LB*afrout",
+      "overall_player_score": 81.66666666666666,
       "player_weekly_fame": [
-        2800,
-        2650,
-        3050,
-        2950,
-        2950
+        2850,
+        3000,
+        3250,
+        2750
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -301,16 +60,30 @@
     },
     {
       "player_name": "DARK FURY",
-      "overall_player_score": 79.44444444444444,
+      "overall_player_score": 80.55555555555557,
       "player_weekly_fame": [
-        3200,
+        3100,
+        2900,
         2750,
-        2700,
-        2600,
-        2800
+        2650
       ],
       "max_possible_fame": [
         3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "ZINGOUL",
+      "overall_player_score": 80.0,
+      "player_weekly_fame": [
+        2800,
+        2600,
+        3000,
+        3200
+      ],
+      "max_possible_fame": [
         3600,
         3600,
         3600,
@@ -319,106 +92,14 @@
     },
     {
       "player_name": "AnoNyMeX",
-      "overall_player_score": 79.02777777777779,
-      "player_weekly_fame": [
-        2850,
-        2850,
-        2750,
-        3300,
-        2500
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
-      "overall_player_score": 78.54166666666667,
+      "overall_player_score": 80.0,
       "player_weekly_fame": [
         2650,
-        3100,
-        2900,
-        2700,
-        2850
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "jadtarhini",
-      "overall_player_score": 78.54166666666666,
-      "player_weekly_fame": [
-        2800,
-        3100,
-        2600,
-        2750,
-        2900
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* AIKO",
-      "overall_player_score": 77.77777777777777,
-      "player_weekly_fame": [
-        2600,
-        2650,
-        3100,
-        2750,
-        3050
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "moe",
-      "overall_player_score": 77.29166666666667,
-      "player_weekly_fame": [
-        800,
-        2150,
-        3400,
-        2550,
-        1100
-      ],
-      "max_possible_fame": [
-        900,
-        3600,
-        3600,
-        3600,
-        1800
-      ]
-    },
-    {
-      "player_name": "Alii",
-      "overall_player_score": 77.22222222222221,
-      "player_weekly_fame": [
         3200,
-        2250,
         2950,
-        2450,
-        2750
+        2950
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -426,17 +107,15 @@
       ]
     },
     {
-      "player_name": "THE KING GHADI",
-      "overall_player_score": 77.08333333333333,
+      "player_name": "Ph\u00f8enix",
+      "overall_player_score": 79.16666666666667,
       "player_weekly_fame": [
-        2600,
+        2750,
+        2800,
         3000,
-        2700,
-        3000,
-        2700
+        2950
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -445,52 +124,14 @@
     },
     {
       "player_name": "CerealKiller",
-      "overall_player_score": 76.875,
+      "overall_player_score": 79.16666666666666,
       "player_weekly_fame": [
-        2950,
-        2450,
-        2950,
+        3100,
         2700,
-        2650
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "The legend",
-      "overall_player_score": 76.25,
-      "player_weekly_fame": [
-        3050,
-        2750,
-        2350,
-        2800,
-        2600
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "10xRabba",
-      "overall_player_score": 75.83333333333333,
-      "player_weekly_fame": [
-        2850,
-        2950,
-        2450,
         2600,
-        2700
+        2750
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -498,17 +139,15 @@
       ]
     },
     {
-      "player_name": "Tiger2004",
-      "overall_player_score": 75.20833333333334,
+      "player_name": "*LB* AIKO",
+      "overall_player_score": 78.88888888888889,
       "player_weekly_fame": [
-        2600,
-        2350,
-        2900,
-        2950,
-        2900
+        2700,
+        3100,
+        2300,
+        3400
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -517,16 +156,14 @@
     },
     {
       "player_name": "jamil",
-      "overall_player_score": 74.86111111111111,
+      "overall_player_score": 78.88888888888889,
       "player_weekly_fame": [
-        3000,
-        2950,
-        2650,
-        2250,
-        2250
+        2800,
+        2700,
+        2700,
+        3200
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -535,16 +172,14 @@
     },
     {
       "player_name": "wa\u00ebl",
-      "overall_player_score": 74.86111111111111,
+      "overall_player_score": 78.05555555555556,
       "player_weekly_fame": [
         2750,
-        2700,
-        2600,
         2750,
-        2650
+        2750,
+        3050
       ],
       "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -552,71 +187,15 @@
       ]
     },
     {
-      "player_name": "Jude",
-      "overall_player_score": 74.79166666666667,
+      "player_name": "*LB* MIKHAEL",
+      "overall_player_score": 76.38888888888889,
       "player_weekly_fame": [
-        3000,
-        2900,
-        2550,
-        2350,
-        1750
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
+        2950,
+        2500,
+        2650,
         2700
-      ]
-    },
-    {
-      "player_name": "<c5>IcYmAs6",
-      "overall_player_score": 74.58333333333333,
-      "player_weekly_fame": [
-        2500,
-        2350,
-        2900,
-        3050,
-        2850
       ],
       "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "\u2664MikDaD\u2664",
-      "overall_player_score": 73.61111111111111,
-      "player_weekly_fame": [
-        3000,
-        2800,
-        1650,
-        2500,
-        2500
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        2700,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Jad",
-      "overall_player_score": 73.33333333333333,
-      "player_weekly_fame": [
-        2800,
-        2700,
-        2100,
-        2750,
-        2850
-      ],
-      "max_possible_fame": [
-        3600,
         3600,
         3600,
         3600,
@@ -625,143 +204,239 @@
     },
     {
       "player_name": "ahmad nsouli",
-      "overall_player_score": 72.47685185185185,
+      "overall_player_score": 75.55555555555556,
+      "player_weekly_fame": [
+        2700,
+        2600,
+        2750,
+        2850
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "bas3x",
+      "overall_player_score": 74.16666666666667,
       "player_weekly_fame": [
         2900,
-        2950,
-        1750,
-        2450,
-        2100
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        2700,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Harrouk",
-      "overall_player_score": 72.43055555555556,
-      "player_weekly_fame": [
-        2500,
-        2250,
-        2800,
-        2750,
-        2900
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* FINKA",
-      "overall_player_score": 71.13425925925925,
-      "player_weekly_fame": [
-        2350,
-        2600,
-        550,
-        2000,
-        2150
-      ],
-      "max_possible_fame": [
-        3600,
-        2700,
-        900,
-        2700,
-        3600
-      ]
-    },
-    {
-      "player_name": "*LB* RORO",
-      "overall_player_score": 70.27777777777779,
-      "player_weekly_fame": [
-        2750,
-        2500,
         2050,
-        2500,
+        2300,
+        3200
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* ARROW",
+      "overall_player_score": 73.61111111111111,
+      "player_weekly_fame": [
+        2650,
+        2550,
+        2600,
         2800
       ],
       "max_possible_fame": [
         3600,
         3600,
         3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "the boss",
-      "overall_player_score": 68.95833333333333,
-      "player_weekly_fame": [
-        2000,
-        2850,
-        2500,
-        2000,
-        2750
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        2700,
         3600
       ]
     },
     {
       "player_name": "No\u2022name:)",
-      "overall_player_score": 68.68055555555556,
+      "overall_player_score": 73.33333333333334,
       "player_weekly_fame": [
-        2500,
+        2700,
+        2650,
+        2800,
+        2350
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Tiger2004",
+      "overall_player_score": 72.5,
+      "player_weekly_fame": [
+        2700,
+        3300,
+        2350,
+        2000
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        2700,
+        2700
+      ]
+    },
+    {
+      "player_name": "*LB* RORO",
+      "overall_player_score": 72.22222222222223,
+      "player_weekly_fame": [
         2600,
-        2150,
-        2600,
+        2900,
+        2350,
         2550
       ],
       "max_possible_fame": [
         3600,
         3600,
         3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "THE KING GHADI",
+      "overall_player_score": 71.66666666666666,
+      "player_weekly_fame": [
+        2600,
+        3100,
+        2000,
+        2600
+      ],
+      "max_possible_fame": [
         3600,
+        3600,
+        2700,
         3600
       ]
     },
     {
       "player_name": "sam",
-      "overall_player_score": 66.66666666666667,
+      "overall_player_score": 71.11111111111111,
       "player_weekly_fame": [
-        2600,
-        2600,
-        3400,
-        700,
-        0
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600,
-        900,
-        1
-      ]
-    },
-    {
-      "player_name": "alexyy",
-      "overall_player_score": 59.375,
-      "player_weekly_fame": [
-        1700,
-        0,
-        1600,
-        2650,
-        2800
+        2150,
+        3200,
+        2400,
+        2900
       ],
       "max_possible_fame": [
         2700,
-        1,
+        3600,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* mhmd",
+      "overall_player_score": 71.11111111111111,
+      "player_weekly_fame": [
+        2400,
+        2900,
+        2600,
+        2500
+      ],
+      "max_possible_fame": [
+        2700,
+        3600,
+        2700,
+        2700
+      ]
+    },
+    {
+      "player_name": "Anthony",
+      "overall_player_score": 70.83333333333334,
+      "player_weekly_fame": [
+        2450,
+        2200,
+        2450,
+        3200
+      ],
+      "max_possible_fame": [
+        3600,
+        2700,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Abdallah Thabet",
+      "overall_player_score": 69.44444444444444,
+      "player_weekly_fame": [
+        2550,
+        2600,
+        2650,
+        2150
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Jad",
+      "overall_player_score": 66.94444444444444,
+      "player_weekly_fame": [
+        2400,
+        2000,
+        2600,
+        2650
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "Sir Hassan",
+      "overall_player_score": 66.38888888888889,
+      "player_weekly_fame": [
+        2150,
+        2600,
+        2700,
+        2350
+      ],
+      "max_possible_fame": [
+        3600,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "9xRabba",
+      "overall_player_score": 66.1111111111111,
+      "player_weekly_fame": [
+        1100,
+        3250,
+        3150,
+        3300
+      ],
+      "max_possible_fame": [
+        1800,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "MR\u3005BOBKILLER",
+      "overall_player_score": 64.44444444444444,
+      "player_weekly_fame": [
+        2200,
+        1550,
+        3100,
+        2550
+      ],
+      "max_possible_fame": [
+        2700,
         1800,
         3600,
         3600
@@ -769,34 +444,46 @@
     },
     {
       "player_name": "*LB* Shooter",
-      "overall_player_score": 56.25000000000001,
+      "overall_player_score": 63.888888888888886,
       "player_weekly_fame": [
-        2600,
-        2500,
         2000,
-        0,
-        2300
+        2850,
+        2500,
+        2150
       ],
       "max_possible_fame": [
         3600,
         3600,
         3600,
-        1,
         3600
       ]
     },
     {
-      "player_name": "\u5091\u80fd moudi",
-      "overall_player_score": 50.20833333333333,
+      "player_name": "BAHHH",
+      "overall_player_score": 62.222222222222214,
       "player_weekly_fame": [
-        0,
-        1000,
-        3250,
-        2650,
-        2400
+        2450,
+        2550,
+        2500,
+        1250
       ],
       "max_possible_fame": [
-        1,
+        3600,
+        3600,
+        3600,
+        1800
+      ]
+    },
+    {
+      "player_name": "Jude",
+      "overall_player_score": 57.5,
+      "player_weekly_fame": [
+        1100,
+        2500,
+        2900,
+        2750
+      ],
+      "max_possible_fame": [
         1800,
         3600,
         3600,
@@ -804,117 +491,59 @@
       ]
     },
     {
-      "player_name": "anthoneyy",
-      "overall_player_score": 47.91666666666667,
-      "player_weekly_fame": [
-        2350,
-        2750,
-        2350
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "AllahIncubator",
-      "overall_player_score": 45.416666666666664,
-      "player_weekly_fame": [
-        1950,
-        2700,
-        2550
-      ],
-      "max_possible_fame": [
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "edgar_",
-      "overall_player_score": 40.90277777777778,
-      "player_weekly_fame": [
-        0,
-        1200,
-        2500,
-        2050,
-        2300
-      ],
-      "max_possible_fame": [
-        1,
-        2700,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Anthony",
-      "overall_player_score": 38.47222222222222,
-      "player_weekly_fame": [
-        2650,
-        2950
-      ],
-      "max_possible_fame": [
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Shisho",
-      "overall_player_score": 37.29166666666667,
-      "player_weekly_fame": [
-        0,
-        0,
-        2400,
-        2900,
-        2850
-      ],
-      "max_possible_fame": [
-        1,
-        1,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "the phenomenal",
-      "overall_player_score": 35.0,
-      "player_weekly_fame": [
-        0,
-        0,
-        2100,
-        2850,
-        2750
-      ],
-      "max_possible_fame": [
-        1,
-        1,
-        3600,
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "RoyalS-John",
-      "overall_player_score": 33.75,
-      "player_weekly_fame": [
-        2550,
-        2250
-      ],
-      "max_possible_fame": [
-        3600,
-        3600
-      ]
-    },
-    {
-      "player_name": "Sir Hassan",
-      "overall_player_score": 31.944444444444443,
+      "player_name": "\u5342\u722a\u3116\u20b2\u3129\u4e02 (\u2605)",
+      "overall_player_score": 56.388888888888886,
       "player_weekly_fame": [
         2000,
-        2750
+        1500,
+        2600,
+        2050
+      ],
+      "max_possible_fame": [
+        3600,
+        1800,
+        3600,
+        2700
+      ]
+    },
+    {
+      "player_name": "\u2664MikDaD\u2664",
+      "overall_player_score": 53.61111111111111,
+      "player_weekly_fame": [
+        1400,
+        1600,
+        2550,
+        2700
+      ],
+      "max_possible_fame": [
+        1800,
+        2700,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* mhmd .",
+      "overall_player_score": 52.5,
+      "player_weekly_fame": [
+        0,
+        3400,
+        3050,
+        3000
+      ],
+      "max_possible_fame": [
+        1,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* Mahdi",
+      "overall_player_score": 51.666666666666664,
+      "player_weekly_fame": [
+        3300,
+        2700
       ],
       "max_possible_fame": [
         3600,
@@ -922,90 +551,496 @@
       ]
     },
     {
-      "player_name": "Abdallah Thabet",
-      "overall_player_score": 26.25,
+      "player_name": "it's me ali",
+      "overall_player_score": 49.72222222222222,
       "player_weekly_fame": [
-        2150,
-        1125
+        0,
+        2950,
+        2800,
+        3200
+      ],
+      "max_possible_fame": [
+        1,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "barhoum",
+      "overall_player_score": 48.333333333333336,
+      "player_weekly_fame": [
+        1050,
+        2200,
+        2000,
+        2400
+      ],
+      "max_possible_fame": [
+        1800,
+        3600,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "CHAHIN",
+      "overall_player_score": 42.5,
+      "player_weekly_fame": [
+        2600,
+        2450
+      ],
+      "max_possible_fame": [
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "*LB* FINKA",
+      "overall_player_score": 42.22222222222222,
+      "player_weekly_fame": [
+        1450,
+        0,
+        2250,
+        2450
+      ],
+      "max_possible_fame": [
+        2700,
+        1,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "M.A.R.V.E.N",
+      "overall_player_score": 42.22222222222222,
+      "player_weekly_fame": [
+        3100,
+        1400
+      ],
+      "max_possible_fame": [
+        3600,
+        1800
+      ]
+    },
+    {
+      "player_name": "abo zooz",
+      "overall_player_score": 40.0,
+      "player_weekly_fame": [
+        0,
+        800,
+        3500,
+        2900
+      ],
+      "max_possible_fame": [
+        1,
+        900,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "\u300eLB\u300f\u30c4LUFFY\u30c4",
+      "overall_player_score": 38.88888888888889,
+      "player_weekly_fame": [
+        3050,
+        900,
+        0
+      ],
+      "max_possible_fame": [
+        3600,
+        900,
+        1
+      ]
+    },
+    {
+      "player_name": "Maher MO",
+      "overall_player_score": 38.333333333333336,
+      "player_weekly_fame": [
+        0,
+        0,
+        3500,
+        3400
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "'(King.)!",
+      "overall_player_score": 37.77777777777778,
+      "player_weekly_fame": [
+        3400
+      ],
+      "max_possible_fame": [
+        3600
+      ]
+    },
+    {
+      "player_name": "kouki monster",
+      "overall_player_score": 37.77777777777778,
+      "player_weekly_fame": [
+        2350,
+        2100
+      ],
+      "max_possible_fame": [
+        2700,
+        2700
+      ]
+    },
+    {
+      "player_name": "jad",
+      "overall_player_score": 34.44444444444444,
+      "player_weekly_fame": [
+        2300,
+        1600
       ],
       "max_possible_fame": [
         3600,
         2700
+      ]
+    },
+    {
+      "player_name": "10xRabba",
+      "overall_player_score": 33.333333333333336,
+      "player_weekly_fame": [
+        0,
+        1600,
+        2500,
+        1900
+      ],
+      "max_possible_fame": [
+        1,
+        2700,
+        3600,
+        2700
+      ]
+    },
+    {
+      "player_name": "Rabih",
+      "overall_player_score": 31.38888888888889,
+      "player_weekly_fame": [
+        2250,
+        1150
+      ],
+      "max_possible_fame": [
+        3600,
+        1800
+      ]
+    },
+    {
+      "player_name": "Harrouk",
+      "overall_player_score": 31.11111111111111,
+      "player_weekly_fame": [
+        0,
+        0,
+        2800,
+        2800
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        3600,
+        3600
       ]
     },
     {
       "player_name": "Jaqen H'ghar",
-      "overall_player_score": 21.666666666666668,
+      "overall_player_score": 30.0,
       "player_weekly_fame": [
-        1950
+        0,
+        0,
+        2400,
+        3000
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        3600,
+        3600
+      ]
+    },
+    {
+      "player_name": "mhmd_chmait",
+      "overall_player_score": 28.888888888888886,
+      "player_weekly_fame": [
+        2600
+      ],
+      "max_possible_fame": [
+        3600
+      ]
+    },
+    {
+      "player_name": "Gebran",
+      "overall_player_score": 26.666666666666668,
+      "player_weekly_fame": [
+        2400
       ],
       "max_possible_fame": [
         2700
       ]
     },
     {
-      "player_name": "pkomj",
-      "overall_player_score": 21.296296296296298,
+      "player_name": "jadtarhini",
+      "overall_player_score": 25.555555555555554,
       "player_weekly_fame": [
         0,
         0,
-        1300,
-        700
+        2000,
+        2600
       ],
       "max_possible_fame": [
         1,
         1,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "MEGA",
+      "overall_player_score": 22.22222222222222,
+      "player_weekly_fame": [
+        1700,
+        600
+      ],
+      "max_possible_fame": [
         2700,
         900
       ]
     },
     {
-      "player_name": "barhoum",
-      "overall_player_score": 20.0,
+      "player_name": "icy_btw",
+      "overall_player_score": 22.22222222222222,
       "player_weekly_fame": [
-        1200
+        0,
+        0,
+        1000,
+        3000
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1800,
+        3600
+      ]
+    },
+    {
+      "player_name": "Alii",
+      "overall_player_score": 21.38888888888889,
+      "player_weekly_fame": [
+        0,
+        0,
+        1750,
+        2100
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        2700,
+        3600
+      ]
+    },
+    {
+      "player_name": "The legend",
+      "overall_player_score": 18.61111111111111,
+      "player_weekly_fame": [
+        0,
+        0,
+        700,
+        2650
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        900,
+        3600
+      ]
+    },
+    {
+      "player_name": "Lucas Michael",
+      "overall_player_score": 18.055555555555557,
+      "player_weekly_fame": [
+        800,
+        0,
+        0,
+        1650
+      ],
+      "max_possible_fame": [
+        900,
+        1,
+        1,
+        2700
+      ]
+    },
+    {
+      "player_name": "Pikabu",
+      "overall_player_score": 17.77777777777778,
+      "player_weekly_fame": [
+        1600
+      ],
+      "max_possible_fame": [
+        2700
+      ]
+    },
+    {
+      "player_name": "F\u014dX LEBANON\u269c\ufe0f",
+      "overall_player_score": 17.777777777777775,
+      "player_weekly_fame": [
+        0,
+        2600,
+        600
+      ],
+      "max_possible_fame": [
+        1,
+        3600,
+        900
+      ]
+    },
+    {
+      "player_name": "bibs",
+      "overall_player_score": 16.666666666666664,
+      "player_weekly_fame": [
+        500,
+        2000
+      ],
+      "max_possible_fame": [
+        1800,
+        3600
+      ]
+    },
+    {
+      "player_name": "hussein shehade",
+      "overall_player_score": 16.666666666666664,
+      "player_weekly_fame": [
+        1500
       ],
       "max_possible_fame": [
         1800
       ]
     },
     {
-      "player_name": "BerroXVI",
-      "overall_player_score": 19.583333333333336,
+      "player_name": "julio_712",
+      "overall_player_score": 16.11111111111111,
       "player_weekly_fame": [
         0,
-        0,
-        0,
-        1100,
-        1250
+        1900,
+        1000
       ],
       "max_possible_fame": [
         1,
-        1,
-        1,
-        1800,
+        3600,
         1800
       ]
     },
     {
-      "player_name": "ryuk",
-      "overall_player_score": 17.77777777777778,
+      "player_name": "AUFA",
+      "overall_player_score": 14.444444444444443,
+      "player_weekly_fame": [
+        1300
+      ],
+      "max_possible_fame": [
+        2700
+      ]
+    },
+    {
+      "player_name": "\u300c\uff49\uff53\uff53\uff41\u300d\u3006",
+      "overall_player_score": 9.166666666666666,
+      "player_weekly_fame": [
+        0,
+        1650
+      ],
+      "max_possible_fame": [
+        1,
+        2700
+      ]
+    },
+    {
+      "player_name": "fish\u2764\ufe0fwb",
+      "overall_player_score": 8.333333333333332,
+      "player_weekly_fame": [
+        0,
+        1500
+      ],
+      "max_possible_fame": [
+        1,
+        1800
+      ]
+    },
+    {
+      "player_name": "Maniaklouly",
+      "overall_player_score": 8.055555555555555,
+      "player_weekly_fame": [
+        0,
+        1450
+      ],
+      "max_possible_fame": [
+        1,
+        1800
+      ]
+    },
+    {
+      "player_name": "Souna",
+      "overall_player_score": 8.055555555555555,
+      "player_weekly_fame": [
+        0,
+        1450
+      ],
+      "max_possible_fame": [
+        1,
+        2700
+      ]
+    },
+    {
+      "player_name": "MANSO",
+      "overall_player_score": 7.777777777777778,
+      "player_weekly_fame": [
+        700
+      ],
+      "max_possible_fame": [
+        900
+      ]
+    },
+    {
+      "player_name": "Shamshod Light",
+      "overall_player_score": 6.111111111111111,
+      "player_weekly_fame": [
+        550
+      ],
+      "max_possible_fame": [
+        900
+      ]
+    },
+    {
+      "player_name": "LB_ALI",
+      "overall_player_score": 5.0,
       "player_weekly_fame": [
         0,
         0,
-        1600,
-        0
+        0,
+        900
       ],
       "max_possible_fame": [
         1,
         1,
-        1800,
-        1
+        1,
+        900
       ]
     },
     {
-      "player_name": "hadi\u201d",
-      "overall_player_score": 17.77777777777778,
+      "player_name": "kabir",
+      "overall_player_score": 5.0,
+      "player_weekly_fame": [
+        450
+      ],
+      "max_possible_fame": [
+        900
+      ]
+    },
+    {
+      "player_name": "\u2620\ufe0f\u029c\u1d07\u1d00\u1d05-\u029c\u1d1c\u0274\u1d1b\u1d07\u0280\u2694\ufe0f",
+      "overall_player_score": 4.444444444444445,
       "player_weekly_fame": [
         0,
         0,
@@ -1018,125 +1053,151 @@
       ]
     },
     {
-      "player_name": "chicken bandit",
-      "overall_player_score": 16.666666666666664,
+      "player_name": "CursedPhenix",
+      "overall_player_score": 3.888888888888889,
       "player_weekly_fame": [
         0,
         0,
-        0,
-        500,
-        500
+        700
       ],
       "max_possible_fame": [
         1,
         1,
-        1,
-        900,
         900
       ]
     },
     {
-      "player_name": "\u00a7mo\u00f8th\u0177G",
-      "overall_player_score": 16.38888888888889,
-      "player_weekly_fame": [
-        0,
-        1475
-      ],
-      "max_possible_fame": [
-        1,
-        1800
-      ]
-    },
-    {
-      "player_name": "CNG I Brahim \u2122",
-      "overall_player_score": 14.166666666666666,
+      "player_name": "\u0136\u00cc\u00d1\u0122 \u0154\u00c0\u0122\u00d1\u00c0\u0154",
+      "overall_player_score": 3.3333333333333335,
       "player_weekly_fame": [
         0,
         0,
-        0,
-        0,
-        1700
+        600
       ],
       "max_possible_fame": [
-        1,
-        1,
         1,
         1,
         1800
       ]
     },
     {
-      "player_name": "aly hd",
-      "overall_player_score": 13.333333333333334,
+      "player_name": "Hanna",
+      "overall_player_score": 3.3333333333333335,
       "player_weekly_fame": [
+        0,
+        0,
+        0,
+        600
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "Tiger Yahya",
+      "overall_player_score": 3.3333333333333335,
+      "player_weekly_fame": [
+        0,
+        600
+      ],
+      "max_possible_fame": [
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "kassem7",
+      "overall_player_score": 3.3333333333333335,
+      "player_weekly_fame": [
+        0,
+        0,
+        600
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "coolmec 687",
+      "overall_player_score": 3.3333333333333335,
+      "player_weekly_fame": [
+        0,
+        0,
+        600
+      ],
+      "max_possible_fame": [
+        1,
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "ayman",
+      "overall_player_score": 2.2222222222222223,
+      "player_weekly_fame": [
+        0,
+        0,
+        0,
         400
       ],
       "max_possible_fame": [
+        1,
+        1,
+        1,
         900
       ]
     },
     {
-      "player_name": "*LB*Ahmad",
-      "overall_player_score": 10.416666666666668,
+      "player_name": "Alhaji Sudad",
+      "overall_player_score": 2.2222222222222223,
       "player_weekly_fame": [
         0,
         0,
-        0,
-        0,
-        2500
+        400
       ],
       "max_possible_fame": [
         1,
         1,
-        1,
-        1,
-        3600
-      ]
-    },
-    {
-      "player_name": "Dani",
-      "overall_player_score": 8.75,
-      "player_weekly_fame": [
-        0,
-        0,
-        0,
-        2100
-      ],
-      "max_possible_fame": [
-        1,
-        1,
-        1,
-        3600
-      ]
-    },
-    {
-      "player_name": "J\u2666O\u2660K\u2665E\u2663R",
-      "overall_player_score": 7.5,
-      "player_weekly_fame": [
-        0,
-        0,
-        0,
         900
-      ],
-      "max_possible_fame": [
-        1,
-        1,
-        1,
-        1800
       ]
     },
     {
-      "player_name": "MESSI",
-      "overall_player_score": 6.666666666666667,
+      "player_name": "hagop",
+      "overall_player_score": 1.1111111111111112,
       "player_weekly_fame": [
+        0,
+        0,
+        0,
         200
       ],
       "max_possible_fame": [
+        1,
+        1,
+        1,
+        900
+      ]
+    },
+    {
+      "player_name": "ABOU SAMRA",
+      "overall_player_score": 0.4166666666666667,
+      "player_weekly_fame": [
+        0,
+        0,
+        75
+      ],
+      "max_possible_fame": [
+        1,
+        1,
         900
       ]
     }
   ],
-  "total_clan_fame": 167006,
-  "total_trophy_change": -10,
-  "active_players": 67
+  "total_clan_fame": 131793,
+  "total_trophy_change": -80,
+  "active_players": 82
 }
