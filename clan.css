@@ -15,6 +15,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background: #7e1330;
         }
 
         .container {
@@ -29,23 +30,21 @@
             flex-direction: column;
             align-items: stretch;
             justify-content: center;
+            gap: 20px;
         }
 
         h1 {
             text-align: center;
             color: #A4193D;
-            margin-bottom: 10px;
             font-size: 2.5em;
             text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
         }
         .subtitle {
             text-align: center;
             color: #A4193D;
-            margin-bottom: 30px;
             font-size: 1.2em;
         }
         .war-section {
-            margin-bottom: 40px;
             background: transparent;
             padding: 25px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
@@ -58,7 +57,6 @@
         .war-title {
             font-size: 1.8em;
             color: #FFDFB9;
-            margin-bottom: 20px;
             text-align: center;
             padding: 20px;
             border-radius: 8px;
@@ -119,7 +117,6 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
-            margin-bottom: 30px;
         }
         .stat-card {
             background: #A4193D;
@@ -162,7 +159,6 @@
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             transition: background-color 0.3s ease;
-            margin-bottom: 30px;
         }
 
         button:hover {
@@ -182,7 +178,6 @@
         @media (max-width: 768px) {
         .war-section {
             padding: 5px;
-            margin-bottom: 20px;
         }
         
         table {
