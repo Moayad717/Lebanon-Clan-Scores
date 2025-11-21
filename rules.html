@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clan Rules</title>
+    <link rel="stylesheet" href="clan.css">
+</head>
+<body id="rules-body">
+    <div class="container">
+        <h1>Clan Rules</h1>
+        <ol>
+            <li>Participate in wars actively.</li>
+            <li>Communicate any issues with clan co-leaders.</li>
+            <li>Scores 3000+ gets promoted to elder.</li>
+            <li>Scores 2350- gets demoted to member.</li>
+            <li>Low score main clan players gets sybstituted by high score sister clan players.</li>
+        </ol>
+        <button onclick="
+        const lastFile = sessionStorage.getItem('lastLoadedFile') || 'game_data.json';
+        window.location.href ='clan.html?file=' + encodeURIComponent(lastFile);
+        ">Back to Clan Overview</button>
+    </div>
+</body>
+</html>
